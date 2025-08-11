@@ -371,50 +371,77 @@ onBeforeUnmount(() => { unlockPage(); window.removeEventListener('keydown', onKe
   padding-left: calc(16px + env(safe-area-inset-left));
   padding-right: calc(16px + env(safe-area-inset-right));
   overflow: hidden;
+  min-height: 0; /* allow children to define height distribution */
 }
 @media (max-width: 980px){
   .pro-main{ grid-template-columns: 1fr; grid-template-rows: 1fr auto }
 }
 
 /* Buttons */
-.btn{ border:1px solid var(--border); border-radius: 12px; padding: 8px 12px; background: color-mix(in oklab, var(--brand) 14%, transparent); color: var(--text); cursor: pointer; transition: background .2s }
+.btn{
+  border:1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 12px;
+  background: color-mix(in oklab, var(--brand) 14%, transparent);
+  color: var(--text);
+  cursor: pointer;
+  transition: background .2s;
+}
 .btn:hover{ background: color-mix(in oklab, var(--brand) 22%, transparent) }
 .btn.ghost{ background: transparent }
 
 /* Viewer */
-.viewer{ display:grid; grid-template-rows: 1fr auto auto; min-height: 0 }
+.viewer{
+  display:grid;
+  grid-template-rows: 1fr auto auto;
+  min-height: 0; /* critical: let the first row shrink instead of overflowing */
+}
 
-/* Stage: media fills this area */
+/* Stage */
 .stage{
   position: relative;
   display:grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: minmax(0, auto) minmax(0, 1fr) minmax(0, auto);
   align-items:center;
   gap: 12px;
-  min-height: 0;
+  min-height: 220px;      /* floor so it never collapses (prevents 0px cases around ~520px widths) */
+  height: 100%;           /* fill available grid row */
   background: var(--surface, #10141e);
   border:1px solid var(--border);
   border-radius: 16px;
   padding: clamp(10px, 2vmin, 16px);
   box-shadow: 0 10px 30px rgba(0,0,0,.30);
+  min-width: 0;
 }
 
-/* Media box fills center column */
+/* Media box: flexible, can’t collapse, centers content */
 .media-box{
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
+  min-height: 0;           /* keep it from forcing overflow in grid */
   border-radius: 12px;
   overflow: hidden;
-  display:grid;
-  place-items:center;
+  background: #000;        /* letterbox background */
 }
-.media{
-  height: 75svh;
-  object-fit: cover;   
-  background: #000;
-}
-@media (max-width: 980px){ .media{ height: 30svh; } }
 
+/* Image & video: keep aspect, scale within box, no overflow */
+.media{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;      /* keep scale */
+  object-position: center;
+  display: block;
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: auto;     /* video controls usable */
+}
+
+/* Loader */
 .loader{
   position:absolute; inset:0; display:grid; place-items:center; pointer-events:none;
 }
@@ -440,7 +467,10 @@ onBeforeUnmount(() => { unlockPage(); window.removeEventListener('keydown', onKe
 @media (max-width: 560px){ .arrow{ display:none } }
 
 /* Meta + thumbs */
-.meta{ display:flex; align-items:center; justify-content:space-between; gap:10px; color: var(--muted); padding: 8px 2px; flex-wrap: wrap }
+.meta{
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  color: var(--muted); padding: 8px 2px; flex-wrap: wrap;
+}
 .caption{ flex:1; text-align:left }
 .counter{ border:1px dashed var(--border); border-radius: 6px; padding: 2px 6px }
 
@@ -455,15 +485,29 @@ onBeforeUnmount(() => { unlockPage(); window.removeEventListener('keydown', onKe
 .thumb{
   flex: 0 0 var(--thumb-w) !important; width: var(--thumb-w) !important; height: var(--thumb-h) !important;
   border:1px solid var(--border); border-radius: 10px; background: color-mix(in oklab, var(--panel) 70%, transparent);
-  display:grid; place-items:center; cursor:pointer; opacity:.96; transition: border-color .2s, box-shadow .2s, opacity .2s; overflow: hidden; scroll-snap-align: center
+  display:grid; place-items:center; cursor:pointer; opacity:.96; transition: border-color .2s, box-shadow .2s, opacity .2s; overflow: hidden; scroll-snap-align: center;
 }
 .thumb:hover{ opacity: 1 }
 .thumb.active{ border-color: color-mix(in oklab, var(--brand) 55%, var(--border)); box-shadow: 0 0 0 3px var(--ring) inset }
 .thumb img{ width:100% !important; height:100% !important; object-fit: cover !important; display:block !important; max-width:none !important; max-height:none !important }
 
-/* Info */
-.info{ border-left: 1px solid var(--border); padding-left: 16px; overflow: auto; -webkit-overflow-scrolling: touch }
-@media (max-width: 980px){ .info{ border-left: none; border-top: 1px solid var(--border); padding-top: 14px; max-height: 42vh } }
+/* Info column */
+.info{
+  border-left: 1px solid var(--border);
+  padding-left: 16px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 980px){
+  .info{
+    border-left: none;
+    border-top: 1px solid var(--border);
+    padding-top: 14px;
+    max-height: 42vh; /* keep room for the stage on mobile */
+  }
+}
+
+/* Chips, blocks, lists */
 .chips{ display:flex; gap:8px; flex-wrap:wrap; margin: 8px 0 }
 .chip{ border:1px solid var(--border); padding:6px 10px; border-radius:999px }
 .blk{ margin: 12px 0 }
