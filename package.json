@@ -8,7 +8,8 @@
     "build": "npm run build:index && vite build",
     "postbuild": "node scripts/make-404.js",
     "preview": "vite preview",
-    "build:index": "node scripts/build-index.js"
+    "build:index": "node scripts/build-index.js",
+    "deploy:docs": "npm run build && rimraf docs && mkdir docs && cpy dist/** docs --parents"
   },
   "devDependencies": {
     "@types/node": "^24.2.1",
