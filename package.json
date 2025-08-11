@@ -9,7 +9,9 @@
     "postbuild": "node scripts/make-404.js",
     "preview": "vite preview",
     "build:index": "node scripts/build-index.js",
-    "deploy:docs": "npm run build && rimraf docs && cpy dist/** docs --parents"
+    "deploy:docs": "npm run build && rimraf docs && cpy dist/** docs --parents",
+    "gen:projects": "node scripts/build-projects.mjs",
+    "check:dist": "node scripts/check-dist.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.2.1",
