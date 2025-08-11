@@ -1,0 +1,21 @@
+{
+  "name": "wael-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build:index && vite",
+    "build": "npm run build:index && vite build",
+    "postbuild": "node scripts/make-404.js",
+    "preview": "vite preview",
+    "build:index": "node scripts/build-index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "vue": "^3.4.31",
+    "vue-i18n": "^9.13.1"
+  }
+}

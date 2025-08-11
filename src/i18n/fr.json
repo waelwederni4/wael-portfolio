@@ -1,0 +1,26 @@
+{
+  "nav": { "home": "Accueil", "about": "À propos", "exp": "Expérience", "projects": "Projets", "contact": "Contact", "theme": "Thème", "lang": "Langue" },
+  "hero": { "hi": "Bonjour, je suis", "title": "Ingénieur Logiciel Full-Stack · .NET · Mobile", "current": "Ingénieur Full Stack & Développeur Mobile @ NeoLedge (juil. 2022 – aujourd’hui)", "download": "Télécharger le CV", "contact": "Contact" },
+  "about": { "title": "À propos", "skills": "Compétences" },
+  "exp": { "title": "Expérience" },
+  "projects": { "title": "Projets", "search": "Rechercher projets, techno, description…", "filters": { "all": "Tous", "mobile": "Mobile", "web": "Web", "desktop": "Desktop" }, "sort": "Trier", "newest": "Plus récent", "oldest": "Plus ancien", "az": "A–Z", "za": "Z–A", "empty": "Aucun projet ne correspond aux filtres." },
+  "contact": { "title": "Contact", "email": "E-mail", "phone": "Téléphone", "linkedin": "LinkedIn", "github": "GitHub" },
+   "ui": {
+    "view": "Voir",
+    "overview": "Aperçu",
+    "media": "Médias",
+    "details": "Détails",
+    "highlights": "Points forts",
+    "demo": "Démo en ligne",
+    "code": "Code source",
+    "downloadCover": "Télécharger la couverture",
+    "stack": "Technologies",
+    "links": "Liens",
+    "timeline": "Chronologie", "fit":"Ajuster", "size":"Taille", "orientation":"Orientation", "zoom":"Zoom", "reset":"Réinitialiser" 
+  },
+  "types": {
+    "mobile": "Mobile",
+    "web": "Web",
+    "desktop": "Desktop"
+  } 
+}

@@ -1,0 +1,28 @@
+{
+  "nav": { "home": "Home", "about": "About", "exp": "Experience", "projects": "Projects", "contact": "Contact", "theme": "Theme", "lang": "Language" },
+  "hero": { "hi": "Hi, I’m", "title": "Full-Stack Software Engineer · .NET · Mobile", "current": "Full Stack Engineer & Mobile Developer @ NeoLedge (Jul 2022 – present)", "download": "Download CV", "contact": "Contact" },
+  "about": { "title": "About", "skills": "Skills" },
+  "exp": { "title": "Experience" },
+  "projects": { "title": "Projects", "search": "Search projects, tech, description…", "filters": { "all": "All", "mobile": "Mobile", "web": "Web", "desktop": "Desktop" }, "sort": "Sort", "newest": "Newest", "oldest": "Oldest", "az": "A–Z", "za": "Z–A", "empty": "No projects match your filters." },
+  "contact": { "title": "Contact", "email": "Email", "phone": "Phone", "linkedin": "LinkedIn", "github": "GitHub" },
+  "ui": {
+    "view": "View",
+    "overview": "Overview",
+    "media": "Media",
+    "details": "Details",
+    "highlights": "Highlights",
+    "demo": "Live Demo",
+    "code": "Source Code",
+    "downloadCover": "Download cover",
+    "stack": "Tech stack",
+    "links": "Links",
+    "timeline": "Timeline",
+    "fit":"Fit", "size":"Size", "orientation":"Orientation", "zoom":"Zoom", "reset":"Reset"
+  },
+  "types": {
+    "mobile": "Mobile",
+    "web": "Web",
+    "desktop": "Desktop"
+  }
+
+}

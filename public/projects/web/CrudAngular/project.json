@@ -1,0 +1,9 @@
+{
+  "title": { "en": "CRUD Angular", "fr": "CRUD Angular" },
+  "year": 2021,
+  "desc": { "en": "Admin CRUD with Angular & Node.", "fr": "CRUD admin avec Angular & Node." },
+  "stack": ["Angular", "Node.js"],
+  "links": { "demo": "", "code": "" },
+  "cover": "cover.jpg",
+  "media": [{ "type": "img", "src": "1.jpg" }]
+}

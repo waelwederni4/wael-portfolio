@@ -1,0 +1,43 @@
+{
+  "title": { 
+    "en": "Elise Flow - Electronic Signature", 
+    "fr": "Elise Flow - Signature Électronique" 
+  },
+  "year": 2023,
+  "period": { 
+    "en": "Jan 2023 - Present", 
+    "fr": "Janv 2023 - Présent" 
+  },
+  "desc": {
+    "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
+    "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+  },
+  "stack": ["UWP", "WPF", "ASP.NET Core", "SOAP", "iText", "PDF Processing"],
+  "highlights": [
+    { 
+      "en": "Secure electronic document signing", 
+      "fr": "Signature électronique sécurisée" 
+    },
+    { 
+      "en": "PDF document processing and manipulation", 
+      "fr": "Traitement et manipulation de documents PDF" 
+    },
+    { 
+      "en": "Document workflow management", 
+      "fr": "Gestion des flux documentaires" 
+    },
+    { 
+      "en": "Multi-user collaboration features", 
+      "fr": "Fonctionnalités de collaboration multi-utilisateurs" 
+    },
+    { 
+      "en": "Audit trail and version control", 
+      "fr": "Historique des modifications et contrôle de version" 
+    }
+  ],
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
+}

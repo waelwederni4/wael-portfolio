@@ -1,0 +1,23 @@
+:root {
+  --brand: #2196f3;
+  --ring: rgba(33, 150, 243, 0.25);
+  --nav-h: 64px;
+  --panel: #ffffff;        /* panels/cards */
+  --border: #e6e8eb;       /* subtle borders */
+  --text: #0f141b;         /* main text */
+  --muted: #5f6b7a;        /* secondary text */
+  --surface: #f7f9fc;      /* inputs / surfaces */
+  --bg: #f7f7fb;           /* page background */
+}
+
+:root[data-theme="dark"] {
+  --brand: #2196f3;
+  --ring: rgba(33, 150, 243, 0.25);
+
+  --panel: #0f141b;
+  --border: #243042;
+  --text: #e6edf3;
+  --muted: #9aa4b2;
+  --surface: #141824;
+  --bg: #0b0f15;
+}
