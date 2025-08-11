@@ -1,0 +1,49 @@
+{
+  "title": { 
+    "en": "Taxi 5 - Driver Management System", 
+    "fr": "Taxi 5 - Système de Gestion pour Chauffeurs" 
+  },
+  "year": 2023,
+  "period": { 
+    "en": "Aug 2023", 
+    "fr": "Août 2023" 
+  },
+  "desc": {
+    "en": "Freelance project developing a taxi driver application to manage client transportation missions with real-time tracking and mission management.",
+    "fr": "Projet freelance développant une application pour chauffeurs de taxi permettant de gérer les missions de transport de clients avec suivi en temps réel et gestion des courses."
+  },
+  "stack": ["Flutter", "Dart", "Firebase", "SQLite", "Google Maps API"],
+  "highlights": [
+    { 
+      "en": "Real-time mission assignment", 
+      "fr": "Assignation de missions en temps réel" 
+    },
+    { 
+      "en": "Route optimization and navigation", 
+      "fr": "Optimisation d'itinéraire et navigation" 
+    },
+    { 
+      "en": "Driver performance analytics", 
+      "fr": "Analyse de performance des chauffeurs" 
+    },
+    { 
+      "en": "Offline mission synchronization", 
+      "fr": "Synchronisation des missions hors ligne" 
+    },
+    { 
+      "en": "Secure payment integration", 
+      "fr": "Intégration de paiement sécurisé" 
+    }
+  ],
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
+}
