@@ -147,6 +147,104 @@
     },
     {
       "title": {
+        "en": "eHarmonia - Alarm System Control",
+        "fr": "eHarmonia - Contrôle des Systèmes d'Alarme"
+      },
+      "slug": "eHarmonia",
+      "type": "mobile",
+      "year": 2024,
+      "period": {
+        "en": "May 2024 - Present",
+        "fr": "Mai 2024 - Présent"
+      },
+      "desc": {
+        "en": "Freelance project to modernize the Harmonia 2 & 3 alarm system control application, migrating from Xamarin.Forms to .NET MAUI while adding new features.",
+        "fr": "Projet freelance de modernisation de l'application de contrôle des systèmes d'alarme Harmonia 2 & 3, avec migration de Xamarin.Forms vers .NET MAUI et ajout de nouvelles fonctionnalités."
+      },
+      "stack": [
+        ".NET MAUI",
+        "Xamarin.Forms",
+        "Android",
+        "iOS",
+        "Push Notifications",
+        "Bluetooth LE"
+      ],
+      "highlights": [
+        {
+          "en": "Alarm system remote control",
+          "fr": "Contrôle à distance du système d'alarme"
+        },
+        {
+          "en": "Real-time push notifications",
+          "fr": "Notifications push en temps réel"
+        },
+        {
+          "en": "Migration to .NET MAUI",
+          "fr": "Migration vers .NET MAUI"
+        },
+        {
+          "en": "Multi-platform support (Android/iOS)",
+          "fr": "Support multiplateforme (Android/iOS)"
+        },
+        {
+          "en": "Enhanced security features",
+          "fr": "Fonctionnalités de sécurité améliorées"
+        }
+      ],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=com.septam.eharmonia",
+        "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117"
+      },
+      "cover": "projects/mobile/eHarmonia/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/mobile/eHarmonia/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/eHarmonia/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/eHarmonia/screen-03.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/eHarmonia/screen-04.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "Elise - Enterprise Content Management",
         "fr": "Elise - Gestion Électronique de Documents"
       },
@@ -731,6 +829,243 @@
         {
           "type": "img",
           "src": "projects/mobile/BlooDon/screen-09.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Elise City – Citizen Relationship & Document Access",
+        "fr": "Elise City – Relation Citoyenne & Gestion Documentaire"
+      },
+      "slug": "EliseCity",
+      "type": "mobile",
+      "year": 2022,
+      "period": {
+        "en": "May 2022 – Present",
+        "fr": "Mai 2022 – Présent"
+      },
+      "desc": {
+        "en": "Mobile app for citizen relationship and document access. Elise City lets residents report issues, track resolution in real time, and communicate with their municipality 24/7. Integrated with the Elise back office, it triggers automated workflows and ensures full traceability of requests. As the technical lead at NeoLedge, I drove product improvements, delivered customer-specific releases, fixed bugs, provided support, and set up CI/CD pipelines for store deployments via App Center.",
+        "fr": "Application mobile de relation citoyenne et de gestion documentaire. Elise City permet aux citoyens de signaler des incidents, de suivre leur traitement en temps réel et d’échanger avec leur collectivité 24h/24 et 7j/7. Couplée au back-office Elise, elle déclenche des processus automatisés et assure la traçabilité des demandes. En tant que responsable technique chez NeoLedge, j’ai piloté les évolutions, livré des versions multi-clients, corrigé les anomalies, assuré le support et mis en place des pipelines CI/CD pour les déploiements sur les stores via App Center."
+      },
+      "stack": [
+        "Xamarin.Forms",
+        "Android",
+        "iOS",
+        "Visual Studio App Center",
+        "Azure DevOps",
+        "GraphQL",
+        "Push Notifications (FCM/APNs)",
+        "Geolocation"
+      ],
+      "highlights": [
+        {
+          "en": "Geolocated reports & real-time tracking",
+          "fr": "Signalements géolocalisés & suivi en temps réel"
+        },
+        {
+          "en": "Integration with Elise workflows (automation)",
+          "fr": "Intégration aux workflows Elise (automatisation)"
+        },
+        {
+          "en": "Reliable push notifications",
+          "fr": "Notifications push fiables"
+        },
+        {
+          "en": "Secure mobile authentication",
+          "fr": "Authentification mobile sécurisée"
+        },
+        {
+          "en": "CI/CD & automated App Center store deployments",
+          "fr": "CI/CD & déploiements automatisés via App Center"
+        },
+        {
+          "en": "Cross-platform consistency (Android/iOS)",
+          "fr": "Cohérence multiplateforme (Android/iOS)"
+        }
+      ],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=fr.archimed.smartcity",
+        "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117",
+        "website": "https://www.neoledge.com"
+      },
+      "cover": "projects/mobile/EliseCity/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseCity/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseCity/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseCity/screen-03.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseCity/screen-04.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseCity/screen-05.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "EliseMobile - Document Management",
+        "fr": "EliseMobile - Gestion Documentaire Mobile"
+      },
+      "slug": "EliseMobile",
+      "type": "mobile",
+      "year": 2022,
+      "period": {
+        "en": "May 2022 - Present",
+        "fr": "Mai 2022 - Présent"
+      },
+      "desc": {
+        "en": "Mobile application providing full access to Elise document management system features, enabling remote collaboration and decision making. As technical lead at Neoledge, I was responsible for app improvements, bug fixes, client support, and implementing CI/CD pipelines for store deployments via AppCenter.",
+        "fr": "Application mobile donnant accès aux fonctionnalités du système de gestion documentaire Elise, permettant collaboration et supervision à distance. En tant que responsable technique chez Neoledge, j'ai effectué les améliorations, corrections de bugs, support client, et mis en place les pipelines CI/CD pour les déploiements sur les stores via AppCenter."
+      },
+      "stack": [
+        "Xamarin Native",
+        "Android",
+        "iOS",
+        "AppCenter",
+        "CI/CD",
+        "SOAP"
+      ],
+      "highlights": [
+        {
+          "en": "Mobile document access and editing",
+          "fr": "Accès et édition de documents mobiles"
+        },
+        {
+          "en": "Real-time document synchronization",
+          "fr": "Synchronisation documentaire en temps réel"
+        },
+        {
+          "en": "Secure mobile authentication",
+          "fr": "Authentification mobile sécurisée"
+        },
+        {
+          "en": "Automated store deployments (AppCenter)",
+          "fr": "Déploiements automatiques (AppCenter)"
+        },
+        {
+          "en": "Cross-platform consistency (Android/iOS)",
+          "fr": "Cohérence multiplateforme (Android/iOS)"
+        }
+      ],
+      "links": {
+        "playstore": "https://play.google.com/store/apps/details?id=fr.archimed.elisemobile",
+        "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117",
+        "website": "https://www.neoledge.com"
+      },
+      "cover": "projects/mobile/EliseMobile/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobile/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobile/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobile/screen-03.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobile/screen-04.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobile/screen-05.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobile/screen-06.jpg",
           "w": 1170,
           "h": 2532,
           "device": "phone",

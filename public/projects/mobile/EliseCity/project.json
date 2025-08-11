@@ -1,0 +1,64 @@
+{
+  "title": {
+    "en": "Elise City – Citizen Relationship & Document Access",
+    "fr": "Elise City – Relation Citoyenne & Gestion Documentaire"
+  },
+  "year": 2022,
+  "period": {
+    "en": "May 2022 – Present",
+    "fr": "Mai 2022 – Présent"
+  },
+  "desc": {
+    "en": "Mobile app for citizen relationship and document access. Elise City lets residents report issues, track resolution in real time, and communicate with their municipality 24/7. Integrated with the Elise back office, it triggers automated workflows and ensures full traceability of requests. As the technical lead at NeoLedge, I drove product improvements, delivered customer-specific releases, fixed bugs, provided support, and set up CI/CD pipelines for store deployments via App Center.",
+    "fr": "Application mobile de relation citoyenne et de gestion documentaire. Elise City permet aux citoyens de signaler des incidents, de suivre leur traitement en temps réel et d’échanger avec leur collectivité 24h/24 et 7j/7. Couplée au back-office Elise, elle déclenche des processus automatisés et assure la traçabilité des demandes. En tant que responsable technique chez NeoLedge, j’ai piloté les évolutions, livré des versions multi-clients, corrigé les anomalies, assuré le support et mis en place des pipelines CI/CD pour les déploiements sur les stores via App Center."
+  },
+  "stack": [
+    "Xamarin.Forms",
+    "Android",
+    "iOS",
+    "Visual Studio App Center",
+    "Azure DevOps",
+    "GraphQL",
+    "Push Notifications (FCM/APNs)",
+    "Geolocation"
+  ],
+  "highlights": [
+    {
+      "en": "Geolocated reports & real-time tracking",
+      "fr": "Signalements géolocalisés & suivi en temps réel"
+    },
+    {
+      "en": "Integration with Elise workflows (automation)",
+      "fr": "Intégration aux workflows Elise (automatisation)"
+    },
+    {
+      "en": "Reliable push notifications",
+      "fr": "Notifications push fiables"
+    },
+    {
+      "en": "Secure mobile authentication",
+      "fr": "Authentification mobile sécurisée"
+    },
+    {
+      "en": "CI/CD & automated App Center store deployments",
+      "fr": "CI/CD & déploiements automatisés via App Center"
+    },
+    {
+      "en": "Cross-platform consistency (Android/iOS)",
+      "fr": "Cohérence multiplateforme (Android/iOS)"
+    }
+  ],
+  "links": {
+    "playstore": "https://play.google.com/store/apps/details?id=fr.archimed.smartcity",
+    "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117",
+    "website": "https://www.neoledge.com"
+  },
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
+}

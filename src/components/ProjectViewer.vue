@@ -18,6 +18,8 @@
         <div class="right">
           <a v-if="p?.links?.demo" class="btn ghost" :href="p.links.demo" target="_blank" rel="noopener">{{ t('ui.demo') || 'Demo' }}</a>
           <a v-if="p?.links?.code" class="btn ghost" :href="p.links.code" target="_blank" rel="noopener">{{ t('ui.code') || 'Code' }}</a>
+          <a v-if="p?.links?.playstore" class="btn ghost" :href="p.links.playstore" target="_blank" rel="noopener">{{ t('ui.playstore') || 'Store' }}</a>
+          <a v-if="p?.links?.appstore" class="btn ghost" :href="p.links.appstore" target="_blank" rel="noopener">{{ t('ui.appstore') || 'Store' }}</a>
           <button class="btn" ref="closeBtn" @click="$emit('close')" aria-label="Close">✕</button>
         </div>
       </header>

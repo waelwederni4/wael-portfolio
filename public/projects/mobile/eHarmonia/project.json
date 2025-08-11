@@ -1,0 +1,49 @@
+{
+  "title": { 
+    "en": "eHarmonia - Alarm System Control", 
+    "fr": "eHarmonia - Contrôle des Systèmes d'Alarme" 
+  },
+  "year": 2024,
+  "period": { 
+    "en": "May 2024 - Present", 
+    "fr": "Mai 2024 - Présent" 
+  },
+  "desc": {
+    "en": "Freelance project to modernize the Harmonia 2 & 3 alarm system control application, migrating from Xamarin.Forms to .NET MAUI while adding new features.",
+    "fr": "Projet freelance de modernisation de l'application de contrôle des systèmes d'alarme Harmonia 2 & 3, avec migration de Xamarin.Forms vers .NET MAUI et ajout de nouvelles fonctionnalités."
+  },
+  "stack": [".NET MAUI", "Xamarin.Forms", "Android", "iOS", "Push Notifications", "Bluetooth LE"],
+  "highlights": [
+    { 
+      "en": "Alarm system remote control", 
+      "fr": "Contrôle à distance du système d'alarme" 
+    },
+    { 
+      "en": "Real-time push notifications", 
+      "fr": "Notifications push en temps réel" 
+    },
+    { 
+      "en": "Migration to .NET MAUI", 
+      "fr": "Migration vers .NET MAUI" 
+    },
+    { 
+      "en": "Multi-platform support (Android/iOS)", 
+      "fr": "Support multiplateforme (Android/iOS)" 
+    },
+    { 
+      "en": "Enhanced security features", 
+      "fr": "Fonctionnalités de sécurité améliorées" 
+    }
+  ],
+  "links": {
+    "playstore": "https://play.google.com/store/apps/details?id=com.septam.eharmonia",
+    "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117"
+  },
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
+}
