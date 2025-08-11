@@ -1,0 +1,49 @@
+{
+  "title": { 
+    "en": "Baladiti - Smart City Services", 
+    "fr": "Baladiti - Services de Ville Intelligente" 
+  },
+  "year": 2021,
+  "period": { 
+    "en": "May 2021", 
+    "fr": "Mai 2021" 
+  },
+  "desc": {
+    "en": "Smart City competition project developed in Sfax to provide citizens with digital solutions for online ticket booking and complaint management.",
+    "fr": "Projet réalisé lors d'une compétition Smart City à Sfax offrant aux citoyens une solution numérique pour la réservation de tickets en ligne et la gestion des réclamations."
+  },
+  "stack": ["Java", "Android", "Firebase", "Firebase Cloud Messaging", "Google Maps API"],
+  "highlights": [
+    { 
+      "en": "Online ticket booking system", 
+      "fr": "Système de réservation de tickets en ligne" 
+    },
+    { 
+      "en": "Complaint submission and tracking", 
+      "fr": "Dépôt et suivi des réclamations" 
+    },
+    { 
+      "en": "Real-time notifications", 
+      "fr": "Notifications en temps réel" 
+    },
+    { 
+      "en": "Service location mapping", 
+      "fr": "Localisation des services sur carte" 
+    }
+  ],
+  "cover": "cover.jpg",
+  "media": [
+      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-11.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": { 
+    "en": "Elise - Enterprise Content Management", 
+    "fr": "Elise - Gestion Électronique de Documents" 
+  },
+  "year": 2024,
+  "period": { 
+    "en": "Jan 2024 - Present", 
+    "fr": "Janv 2024 - Présent" 
+  },
+  "desc": {
+    "en": "Comprehensive ECM solution centralizing corporate document management with secure storage, advanced search, workflow automation, and compliance features. Enables paperless operations with version control, e-signatures, and audit trails.",
+    "fr": "Solution GED complète centralisant la gestion documentaire d'entreprise avec stockage sécurisé, recherche avancée, automatisation des flux et conformité. Permet une dématérialisation avec contrôle de version, signatures électroniques et traçabilité."
+  },
+  "roles": {
+    "en": ["Research", "Development", "Maintenance", "Technical Support"],
+    "fr": ["Recherche", "Développement", "Maintenance", "Support technique"]
+  },
+  "team": {
+    "en": ["Development team", "UI/UX team", "Documentation team", "QA team"],
+    "fr": ["Équipe développement", "Équipe UI/UX", "Équipe documentation", "Équipe QA"]
+  },
+  "stack": ["Vue.js", "Tailwind CSS", "ASP.NET Core", "REST API", "Azure Blob Storage", "iText PDF"],
+  "highlights": [
+    { 
+      "en": "Centralized document repository with metadata tagging", 
+      "fr": "Dépôt documentaire centralisé avec étiquetage métadonnées" 
+    },
+    { 
+      "en": "Optical Character Recognition (OCR) integration", 
+      "fr": "Intégration de reconnaissance de texte (OCR)" 
+    },
+    { 
+      "en": "Role-based access control (RBAC)", 
+      "fr": "Contrôle d'accès basé sur les rôles (RBAC)" 
+    },
+    { 
+      "en": "Automated retention policy enforcement", 
+      "fr": "Application automatisée des politiques de conservation" 
+    },
+    { 
+      "en": "Mobile-responsive web interface", 
+      "fr": "Interface web adaptée aux mobiles" 
+    }
+  ],
+  "achievements": {
+    "en": [
+      "Reduced document retrieval time by 70%",
+      "Achieved ISO 27001 compliance for document security",
+      "Implemented electronic signatures with legal validity"
+    ],
+    "fr": [
+      "Réduction de 70% du temps d'accès aux documents",
+      "Conformité ISO 27001 pour la sécurité documentaire",
+      "Mise en œuvre de signatures électroniques à valeur légale"
+    ]
+  },
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Onboarding", "fr": "Onboarding" } }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+	  "title": { 
+		"en": "AGIS Market", 
+		"fr": "AGIS Market" 
+	  },
+	  "year": 2020,
+	  "period": { 
+		"en": "Aug-Sep 2020", 
+		"fr": "Août-Sep 2020" 
+	  },
+	  "desc": {
+		"en": "During my second-year engineering summer internship at AGIS Design, I developed this Android e-commerce application for clothing sales with real-time features.",
+		"fr": "Lors de mon stage d'été de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application e-commerce Android pour la vente de vêtements avec des fonctionnalités en temps réel."
+	  },
+	  "stack": ["Java", "Android SDK", "PHP", "SQLite", "Firebase"],
+	  "highlights": [
+		{ 
+		  "en": "Biometric authentication for secure login", 
+		  "fr": "Authentification biométrique pour une connexion sécurisée" 
+		},
+		{ 
+		  "en": "Offline cart functionality with sync", 
+		  "fr": "Panier disponible hors ligne avec synchronisation" 
+		},
+		{ 
+		  "en": "Real-time order tracking system", 
+		  "fr": "Système de suivi de commandes en temps réel" 
+		},
+		{ 
+		  "en": "Clothing catalog with filters", 
+		  "fr": "Catalogue de vêtements avec filtres" 
+		}
+	  ],
+	  "cover": "cover.jpg",
+	  "media": [
+		  { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
+		{ "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+		{ "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+		{ "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+	  ]
+}

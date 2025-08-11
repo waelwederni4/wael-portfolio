@@ -1,0 +1,1863 @@
+{
+  "items": [
+    {
+      "title": {
+        "en": "Somatra Cars - Vehicle Marketplace",
+        "fr": "Somatra Cars - Plateforme Automobile"
+      },
+      "slug": "CarProducts",
+      "type": "mobile",
+      "year": 2024,
+      "period": {
+        "en": "Aug 2024",
+        "fr": "Août 2024"
+      },
+      "desc": {
+        "en": "Freelance project developing a car gallery application to facilitate connections between dealerships and potential buyers.",
+        "fr": "Projet freelance développant une application galerie de voitures pour faciliter les contacts entre concessionnaires et acheteurs potentiels."
+      },
+      "stack": [
+        "Flutter",
+        "Dart",
+        "ASP.NET Core",
+        "PostgreSQL"
+      ],
+      "highlights": [
+        {
+          "en": "Interactive car gallery with filters",
+          "fr": "Galerie de voitures interactive avec filtres"
+        },
+        {
+          "en": "Direct dealer-buyer messaging",
+          "fr": "Messagerie directe concessionnaire-acheteur"
+        },
+        {
+          "en": "Advanced search and comparisons",
+          "fr": "Recherche avancée et comparaisons"
+        },
+        {
+          "en": "Favorites and saved searches",
+          "fr": "Favoris et recherches sauvegardées"
+        }
+      ],
+      "links": {
+        "code": "https://github.com/you/agis-market"
+      },
+      "cover": "projects/mobile/CarProducts/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/CarProducts/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/CarProducts/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Elise - Enterprise Content Management",
+        "fr": "Elise - Gestion Électronique de Documents"
+      },
+      "slug": "EliseFlow",
+      "type": "web",
+      "year": 2024,
+      "period": {
+        "en": "Jan 2024 - Present",
+        "fr": "Janv 2024 - Présent"
+      },
+      "desc": {
+        "en": "Comprehensive ECM solution centralizing corporate document management with secure storage, advanced search, workflow automation, and compliance features. Enables paperless operations with version control, e-signatures, and audit trails.",
+        "fr": "Solution GED complète centralisant la gestion documentaire d'entreprise avec stockage sécurisé, recherche avancée, automatisation des flux et conformité. Permet une dématérialisation avec contrôle de version, signatures électroniques et traçabilité."
+      },
+      "stack": [
+        "Vue.js",
+        "Tailwind CSS",
+        "ASP.NET Core",
+        "REST API",
+        "Azure Blob Storage",
+        "iText PDF"
+      ],
+      "highlights": [
+        {
+          "en": "Centralized document repository with metadata tagging",
+          "fr": "Dépôt documentaire centralisé avec étiquetage métadonnées"
+        },
+        {
+          "en": "Optical Character Recognition (OCR) integration",
+          "fr": "Intégration de reconnaissance de texte (OCR)"
+        },
+        {
+          "en": "Role-based access control (RBAC)",
+          "fr": "Contrôle d'accès basé sur les rôles (RBAC)"
+        },
+        {
+          "en": "Automated retention policy enforcement",
+          "fr": "Application automatisée des politiques de conservation"
+        },
+        {
+          "en": "Mobile-responsive web interface",
+          "fr": "Interface web adaptée aux mobiles"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/web/EliseFlow/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/web/EliseFlow/screen-01.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Taxi 5 - Driver Management System",
+        "fr": "Taxi 5 - Système de Gestion pour Chauffeurs"
+      },
+      "slug": "Taxi5",
+      "type": "mobile",
+      "year": 2023,
+      "period": {
+        "en": "Aug 2023",
+        "fr": "Août 2023"
+      },
+      "desc": {
+        "en": "Freelance project developing a taxi driver application to manage client transportation missions with real-time tracking and mission management.",
+        "fr": "Projet freelance développant une application pour chauffeurs de taxi permettant de gérer les missions de transport de clients avec suivi en temps réel et gestion des courses."
+      },
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "SQLite",
+        "Google Maps API"
+      ],
+      "highlights": [
+        {
+          "en": "Real-time mission assignment",
+          "fr": "Assignation de missions en temps réel"
+        },
+        {
+          "en": "Route optimization and navigation",
+          "fr": "Optimisation d'itinéraire et navigation"
+        },
+        {
+          "en": "Driver performance analytics",
+          "fr": "Analyse de performance des chauffeurs"
+        },
+        {
+          "en": "Offline mission synchronization",
+          "fr": "Synchronisation des missions hors ligne"
+        },
+        {
+          "en": "Secure payment integration",
+          "fr": "Intégration de paiement sécurisé"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/Taxi5/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/Taxi5/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "VTC Smart - Driver Management",
+        "fr": "VTC Smart - Gestion des Chauffeurs"
+      },
+      "slug": "VTCSmartApp",
+      "type": "mobile",
+      "year": 2023,
+      "period": {
+        "en": "May 2023",
+        "fr": "Mai 2023"
+      },
+      "desc": {
+        "en": "Freelance project developing a driver management application for transportation agencies with real-time mission tracking and ride management.",
+        "fr": "Projet freelance développant une application de gestion pour chauffeurs VTC permettant le suivi en temps réel des missions et la gestion des courses."
+      },
+      "stack": [
+        "Java",
+        "Android",
+        "Firebase",
+        "Firebase Cloud Messaging",
+        "Google Maps API",
+        "Geolocation"
+      ],
+      "highlights": [
+        {
+          "en": "Real-time mission assignment and tracking",
+          "fr": "Assignation et suivi des missions en temps réel"
+        },
+        {
+          "en": "Optimized navigation with traffic data",
+          "fr": "Navigation optimisée avec données trafic"
+        },
+        {
+          "en": "Driver performance analytics",
+          "fr": "Analytiques de performance des chauffeurs"
+        },
+        {
+          "en": "Instant notifications (FCM)",
+          "fr": "Notifications instantanées (FCM)"
+        },
+        {
+          "en": "Secure authentication system",
+          "fr": "Système d'authentification sécurisé"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/VTCSmartApp/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/VTCSmartApp/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/VTCSmartApp/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Elise Flow - Electronic Signature",
+        "fr": "Elise Flow - Signature Électronique"
+      },
+      "slug": "EliseFlow",
+      "type": "desktop",
+      "year": 2023,
+      "period": {
+        "en": "Jan 2023 - Present",
+        "fr": "Janv 2023 - Présent"
+      },
+      "desc": {
+        "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
+        "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+      },
+      "stack": [
+        "UWP",
+        "WPF",
+        "ASP.NET Core",
+        "SOAP",
+        "iText",
+        "PDF Processing"
+      ],
+      "highlights": [
+        {
+          "en": "Secure electronic document signing",
+          "fr": "Signature électronique sécurisée"
+        },
+        {
+          "en": "PDF document processing and manipulation",
+          "fr": "Traitement et manipulation de documents PDF"
+        },
+        {
+          "en": "Document workflow management",
+          "fr": "Gestion des flux documentaires"
+        },
+        {
+          "en": "Multi-user collaboration features",
+          "fr": "Fonctionnalités de collaboration multi-utilisateurs"
+        },
+        {
+          "en": "Audit trail and version control",
+          "fr": "Historique des modifications et contrôle de version"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/desktop/EliseFlow/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/desktop/EliseFlow/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/EliseFlow/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "BlooDon - Blood Donation Platform",
+        "fr": "BlooDon - Plateforme de Don de Sang"
+      },
+      "slug": "BlooDon",
+      "type": "mobile",
+      "year": 2022,
+      "period": {
+        "en": "Sep 2022",
+        "fr": "Sep 2022"
+      },
+      "desc": {
+        "en": "Engineering project developed to connect hospitals with blood donors, facilitating donation processes and encouraging regular donors through a mobile application.",
+        "fr": "Projet d'ingénierie développé pour connecter les hôpitaux avec les donneurs de sang, facilitant les processus de don et encourageant les donneurs réguliers via une application mobile."
+      },
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "SQLite",
+        "Geolocation"
+      ],
+      "highlights": [
+        {
+          "en": "Donor registration and profile management",
+          "fr": "Enregistrement et gestion de profil des donneurs"
+        },
+        {
+          "en": "Real-time blood needs alerts",
+          "fr": "Alertes en temps réel sur les besoins en sang"
+        },
+        {
+          "en": "Appointment scheduling system",
+          "fr": "Système de prise de rendez-vous"
+        },
+        {
+          "en": "Donation center locator",
+          "fr": "Localisateur de centres de don"
+        },
+        {
+          "en": "Donation history tracking",
+          "fr": "Suivi de l'historique des dons"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/BlooDon/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/BlooDon/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-09.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Elise Mobile - Document Management",
+        "fr": "Elise Mobile - Gestion Électronique de Documents"
+      },
+      "slug": "EliseMobilePFE",
+      "type": "mobile",
+      "year": 2022,
+      "period": {
+        "en": "Jan-May 2022",
+        "fr": "Janv-Mai 2022"
+      },
+      "desc": {
+        "en": "Engineering graduation project at Neoledge: Rewrote the frontend application for an Electronic Document Management System (EDMS) using Flutter, featuring document scanning, user profiles, and dashboard analytics.",
+        "fr": "Projet de fin d'études d'ingénierie chez Neoledge : Réécriture de l'application frontend d'une plateforme GED (Gestion Électronique de Documents) en Flutter permettant d'ajouter/numériser des documents avec OpenCV, gérer des profils utilisateurs et manipuler des tableaux de bord."
+      },
+      "stack": [
+        "Flutter",
+        "Dart",
+        "ASP.NET Core",
+        "REST API",
+        "OpenCV"
+      ],
+      "highlights": [
+        {
+          "en": "Document scanning and processing with OpenCV",
+          "fr": "Numérisation et traitement de documents avec OpenCV"
+        },
+        {
+          "en": "User profile and access management",
+          "fr": "Gestion des profils utilisateurs et des accès"
+        },
+        {
+          "en": "Interactive document dashboards",
+          "fr": "Tableaux de bord documentaires interactifs"
+        },
+        {
+          "en": "Document workflow management",
+          "fr": "Gestion des flux documentaires"
+        },
+        {
+          "en": "Cross-platform mobile application",
+          "fr": "Application mobile multiplateforme"
+        }
+      ],
+      "links": {
+        "code": "https://github.com/you/elise-mobile",
+        "company": "https://neoledge.com"
+      },
+      "cover": "projects/mobile/EliseMobilePFE/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/EliseMobilePFE/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/EliseMobilePFE/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Baladiti - Smart City Services",
+        "fr": "Baladiti - Services de Ville Intelligente"
+      },
+      "slug": "baladiti",
+      "type": "mobile",
+      "year": 2021,
+      "period": {
+        "en": "May 2021",
+        "fr": "Mai 2021"
+      },
+      "desc": {
+        "en": "Smart City competition project developed in Sfax to provide citizens with digital solutions for online ticket booking and complaint management.",
+        "fr": "Projet réalisé lors d'une compétition Smart City à Sfax offrant aux citoyens une solution numérique pour la réservation de tickets en ligne et la gestion des réclamations."
+      },
+      "stack": [
+        "Java",
+        "Android",
+        "Firebase",
+        "Firebase Cloud Messaging",
+        "Google Maps API"
+      ],
+      "highlights": [
+        {
+          "en": "Online ticket booking system",
+          "fr": "Système de réservation de tickets en ligne"
+        },
+        {
+          "en": "Complaint submission and tracking",
+          "fr": "Dépôt et suivi des réclamations"
+        },
+        {
+          "en": "Real-time notifications",
+          "fr": "Notifications en temps réel"
+        },
+        {
+          "en": "Service location mapping",
+          "fr": "Localisation des services sur carte"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/baladiti/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/baladiti/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-09.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-10.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/baladiti/screen-11.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "CRUD Angular",
+        "fr": "CRUD Angular"
+      },
+      "slug": "CrudAngular",
+      "type": "web",
+      "year": 2021,
+      "period": "",
+      "desc": {
+        "en": "Admin CRUD with Angular & Node.",
+        "fr": "CRUD admin avec Angular & Node."
+      },
+      "stack": [
+        "Angular",
+        "Node.js"
+      ],
+      "highlights": [],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/web/CrudAngular/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/1.jpg"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Chkoba Card Game",
+        "fr": "Jeu de Cartes Chkoba"
+      },
+      "slug": "Chkobaa",
+      "type": "desktop",
+      "year": 2021,
+      "period": {
+        "en": "Feb 2021",
+        "fr": "Fév 2021"
+      },
+      "desc": {
+        "en": "Second-year engineering project: A multiplayer desktop application for playing Chkoba, a traditional Tunisian card game, over a local network.",
+        "fr": "Projet de deuxième année d'ingénierie : Application desktop multijoueur pour jouer au Chkoba, un jeu de cartes tunisien traditionnel, en réseau local."
+      },
+      "stack": [
+        "Java Swing",
+        "Socket Programming",
+        "MySQL"
+      ],
+      "highlights": [
+        {
+          "en": "Real-time multiplayer gameplay",
+          "fr": "Jeu multijoueur en temps réel"
+        },
+        {
+          "en": "Local network connectivity",
+          "fr": "Connexion via réseau local"
+        },
+        {
+          "en": "Authentic Chkoba rules implementation",
+          "fr": "Implémentation des règles authentiques du Chkoba"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/desktop/Chkobaa/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/desktop/Chkobaa/screen-01.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Debt Management System",
+        "fr": "Système de Gestion de Dettes"
+      },
+      "slug": "GestionDette",
+      "type": "desktop",
+      "year": 2021,
+      "period": {
+        "en": "May 2021",
+        "fr": "Mai 2021"
+      },
+      "desc": {
+        "en": "Second-year engineering school project: Desktop application for store owners to track customer debts and transactions.",
+        "fr": "Projet de deuxième année d'école d'ingénieur : Application desktop pour gérer les dettes clients et les transactions d'un magasin."
+      },
+      "stack": [
+        "Java Swing",
+        "SQL"
+      ],
+      "highlights": [
+        {
+          "en": "Customer debt tracking system",
+          "fr": "Système de suivi des dettes clients"
+        },
+        {
+          "en": "Store management application",
+          "fr": "Application de gestion de magasin"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/desktop/GestionDette/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/desktop/GestionDette/demo.mp4",
+          "device": "desktop",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-01.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-02.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-03.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-04.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-05.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-06.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-07.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-08.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-09.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-10.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-11.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-12.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-13.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/GestionDette/screen-14.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "AGIS Market",
+        "fr": "AGIS Market"
+      },
+      "slug": "agis-market",
+      "type": "mobile",
+      "year": 2020,
+      "period": {
+        "en": "Aug-Sep 2020",
+        "fr": "Août-Sep 2020"
+      },
+      "desc": {
+        "en": "During my second-year engineering summer internship at AGIS Design, I developed this Android e-commerce application for clothing sales with real-time features.",
+        "fr": "Lors de mon stage d'été de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application e-commerce Android pour la vente de vêtements avec des fonctionnalités en temps réel."
+      },
+      "stack": [
+        "Java",
+        "Android SDK",
+        "PHP",
+        "SQLite",
+        "Firebase"
+      ],
+      "highlights": [
+        {
+          "en": "Biometric authentication for secure login",
+          "fr": "Authentification biométrique pour une connexion sécurisée"
+        },
+        {
+          "en": "Offline cart functionality with sync",
+          "fr": "Panier disponible hors ligne avec synchronisation"
+        },
+        {
+          "en": "Real-time order tracking system",
+          "fr": "Système de suivi de commandes en temps réel"
+        },
+        {
+          "en": "Clothing catalog with filters",
+          "fr": "Catalogue de vêtements avec filtres"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/agis-market/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/agis-market/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-09.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-10.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "AGIS Embedded Sales",
+        "fr": "AGIS Vente Embarqué"
+      },
+      "slug": "AGISVenteEmbarqué",
+      "type": "mobile",
+      "year": 2020,
+      "period": {
+        "en": "Sep-Oct 2020",
+        "fr": "Sep-Oct 2020"
+      },
+      "desc": {
+        "en": "During my second-year engineering internship at AGIS Design, I developed this Android application for inventory and product management with offline capabilities.",
+        "fr": "Lors de mon stage de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application Android de gestion de stock et produits avec fonctionnalités hors ligne."
+      },
+      "stack": [
+        "Java",
+        "Android SDK",
+        "Firebase",
+        "SQLite",
+        "REST API"
+      ],
+      "highlights": [
+        {
+          "en": "Inventory management system",
+          "fr": "Système de gestion de stock"
+        },
+        {
+          "en": "Barcode scanning for product identification",
+          "fr": "Scan de code-barres pour identification produit"
+        },
+        {
+          "en": "Offline data synchronization",
+          "fr": "Synchronisation des données hors ligne"
+        },
+        {
+          "en": "Real-time stock updates",
+          "fr": "Mises à jour de stock en temps réel"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/AGISVenteEmbarqué/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/AGISVenteEmbarqué/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-09.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-10.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-11.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-12.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-13.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-14.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/AGISVenteEmbarqué/screen-15.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Cough Diagnostic System",
+        "fr": "Système de Diagnostic de Toux"
+      },
+      "slug": "autodiagnostic",
+      "type": "mobile",
+      "year": 2020,
+      "period": {
+        "en": "Mar 2020",
+        "fr": "Mars 2020"
+      },
+      "desc": {
+        "en": "Engineering school project developing an Android application to analyze cough sounds, store data in Firebase, and detect potential COVID-19 infection patterns using Python backend processing.",
+        "fr": "Projet d'école d'ingénieur développant une application Android pour analyser les sons de toux, stocker les données dans Firebase et détecter des motifs d'infection potentielle au COVID-19 via un backend Python."
+      },
+      "stack": [
+        "Java",
+        "Android",
+        "Firebase",
+        "Python",
+        "Machine Learning",
+        "Audio Processing"
+      ],
+      "highlights": [
+        {
+          "en": "Cough sound analysis and recording",
+          "fr": "Analyse et enregistrement des sons de toux"
+        },
+        {
+          "en": "COVID-19 infection probability detection",
+          "fr": "Détection de probabilité d'infection COVID-19"
+        },
+        {
+          "en": "Secure health data storage in Firebase",
+          "fr": "Stockage sécurisé des données médicales dans Firebase"
+        },
+        {
+          "en": "Historical data analysis and trends",
+          "fr": "Analyse des données historiques et tendances"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/autodiagnostic/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/autodiagnostic/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-09.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-10.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-11.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/autodiagnostic/screen-12.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Smart Traffic Light Control",
+        "fr": "Contrôle Intelligent des Feux de Circulation"
+      },
+      "slug": "supervisioncarrefour",
+      "type": "mobile",
+      "year": 2019,
+      "period": {
+        "en": "Jan-Mar 2019",
+        "fr": "Janv-Mars 2019"
+      },
+      "desc": {
+        "en": "Bachelor's final project in embedded systems at SOTICA: Developed an Android Java application for municipalities/police/emergency services to override traffic lights and modify traffic light cycle priorities.",
+        "fr": "Projet de fin de licence en systèmes embarqués chez SOTICA : Développement d'une application Android Java dédiée aux municipalités/police/services d'urgence pour forcer un feu rouge et modifier la priorité des cycles de feux de circulation."
+      },
+      "stack": [
+        "Java",
+        "Android",
+        "PHP",
+        "SQLite",
+        "IoT"
+      ],
+      "highlights": [
+        {
+          "en": "Emergency traffic light override",
+          "fr": "Contrôle prioritaire des feux de circulation"
+        },
+        {
+          "en": "Real-time traffic light cycle adjustment",
+          "fr": "Ajustement en temps réel des cycles de feux"
+        },
+        {
+          "en": "Secure authentication for authorized personnel",
+          "fr": "Authentification sécurisée pour personnel autorisé"
+        },
+        {
+          "en": "Traffic flow optimization algorithms",
+          "fr": "Algorithmes d'optimisation du flux trafic"
+        }
+      ],
+      "links": {
+        "demo": "https://youtu.be/uwny6UXtRWg"
+      },
+      "cover": "projects/mobile/supervisioncarrefour/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/supervisioncarrefour/demo.mp4",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          },
+          "poster": "cover.jpg"
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-02.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-03.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-04.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-05.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-06.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-07.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/supervisioncarrefour/screen-09.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    }
+  ]
+}
