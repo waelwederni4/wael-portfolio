@@ -39,8 +39,8 @@ import ProjectViewer from '@/components/ProjectViewer.vue'
 import type { Project } from '@/types'
 
 const { state, loadAll } = useProjects()
-const loading = computed(() => state.loading)
-const items   = computed(() => state.items)
+const loading = computed(() => state.value.loading)
+const items   = computed(() => state.value.items)
 
 const q     = ref('')
 const type  = ref<'all'|'mobile'|'web'|'desktop'>('all')
