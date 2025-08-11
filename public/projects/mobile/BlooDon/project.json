@@ -3,10 +3,10 @@
     "en": "BlooDon - Blood Donation Platform", 
     "fr": "BlooDon - Plateforme de Don de Sang" 
   },
-  "year": 2022,
+  "year": 2021,
   "period": { 
-    "en": "Sep 2022", 
-    "fr": "Sep 2022" 
+    "en": "Sep 2021", 
+    "fr": "Sep 2021" 
   },
   "desc": {
     "en": "Engineering project developed to connect hospitals with blood donors, facilitating donation processes and encouraging regular donors through a mobile application.",
