@@ -2,71 +2,6 @@
   "items": [
     {
       "title": {
-        "en": "Elise - Enterprise Content Management",
-        "fr": "Elise - Gestion Électronique de Documents"
-      },
-      "slug": "Elise",
-      "type": "web",
-      "year": 2024,
-      "period": {
-        "en": "Jan 2024 - Present",
-        "fr": "Janv 2024 - Présent"
-      },
-      "desc": {
-        "en": "Comprehensive ECM solution centralizing corporate document management with secure storage, advanced search, workflow automation, and compliance features. Enables paperless operations with version control, e-signatures, and audit trails.",
-        "fr": "Solution GED complète centralisant la gestion documentaire d'entreprise avec stockage sécurisé, recherche avancée, automatisation des flux et conformité. Permet une dématérialisation avec contrôle de version, signatures électroniques et traçabilité."
-      },
-      "stack": [
-        "Vue.js",
-        "Tailwind CSS",
-        "ASP.NET Core",
-        "REST API",
-        "Azure Blob Storage",
-        "iText PDF"
-      ],
-      "highlights": [
-        {
-          "en": "Centralized document repository with metadata tagging",
-          "fr": "Dépôt documentaire centralisé avec étiquetage métadonnées"
-        },
-        {
-          "en": "Optical Character Recognition (OCR) integration",
-          "fr": "Intégration de reconnaissance de texte (OCR)"
-        },
-        {
-          "en": "Role-based access control (RBAC)",
-          "fr": "Contrôle d'accès basé sur les rôles (RBAC)"
-        },
-        {
-          "en": "Automated retention policy enforcement",
-          "fr": "Application automatisée des politiques de conservation"
-        },
-        {
-          "en": "Mobile-responsive web interface",
-          "fr": "Interface web adaptée aux mobiles"
-        }
-      ],
-      "links": {
-        "demo": "",
-        "code": ""
-      },
-      "cover": "projects/web/Elise/cover.jpg",
-      "media": [
-        {
-          "type": "img",
-          "src": "projects/web/Elise/screen-01.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "desktop",
-          "caption": {
-            "en": "Onboarding",
-            "fr": "Onboarding"
-          }
-        }
-      ]
-    },
-    {
-      "title": {
         "en": "Somatra Cars - Vehicle Marketplace",
         "fr": "Somatra Cars - Plateforme Automobile"
       },
@@ -113,7 +48,7 @@
         {
           "type": "video",
           "src": "projects/mobile/CarProducts/demo.mp4",
-          "poster": "projects/mobile/CarProducts/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -212,76 +147,65 @@
     },
     {
       "title": {
-        "en": "Elise Flow - Electronic Signature",
-        "fr": "Elise Flow - Signature Électronique"
+        "en": "Elise - Enterprise Content Management",
+        "fr": "Elise - Gestion Électronique de Documents"
       },
-      "slug": "EliseFlow",
-      "type": "desktop",
-      "year": 2023,
+      "slug": "Elise",
+      "type": "web",
+      "year": 2024,
       "period": {
-        "en": "Jan 2023 - Present",
-        "fr": "Janv 2023 - Présent"
+        "en": "Jan 2024 - Present",
+        "fr": "Janv 2024 - Présent"
       },
       "desc": {
-        "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
-        "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+        "en": "Comprehensive ECM solution centralizing corporate document management with secure storage, advanced search, workflow automation, and compliance features. Enables paperless operations with version control, e-signatures, and audit trails.",
+        "fr": "Solution GED complète centralisant la gestion documentaire d'entreprise avec stockage sécurisé, recherche avancée, automatisation des flux et conformité. Permet une dématérialisation avec contrôle de version, signatures électroniques et traçabilité."
       },
       "stack": [
-        "UWP",
-        "WPF",
+        "Vue.js",
+        "Tailwind CSS",
         "ASP.NET Core",
-        "SOAP",
-        "iText",
-        "PDF Processing"
+        "REST API",
+        "Azure Blob Storage",
+        "iText PDF"
       ],
       "highlights": [
         {
-          "en": "Secure electronic document signing",
-          "fr": "Signature électronique sécurisée"
+          "en": "Centralized document repository with metadata tagging",
+          "fr": "Dépôt documentaire centralisé avec étiquetage métadonnées"
         },
         {
-          "en": "PDF document processing and manipulation",
-          "fr": "Traitement et manipulation de documents PDF"
+          "en": "Optical Character Recognition (OCR) integration",
+          "fr": "Intégration de reconnaissance de texte (OCR)"
         },
         {
-          "en": "Document workflow management",
-          "fr": "Gestion des flux documentaires"
+          "en": "Role-based access control (RBAC)",
+          "fr": "Contrôle d'accès basé sur les rôles (RBAC)"
         },
         {
-          "en": "Multi-user collaboration features",
-          "fr": "Fonctionnalités de collaboration multi-utilisateurs"
+          "en": "Automated retention policy enforcement",
+          "fr": "Application automatisée des politiques de conservation"
         },
         {
-          "en": "Audit trail and version control",
-          "fr": "Historique des modifications et contrôle de version"
+          "en": "Mobile-responsive web interface",
+          "fr": "Interface web adaptée aux mobiles"
         }
       ],
       "links": {
         "demo": "",
         "code": ""
       },
-      "cover": "projects/desktop/EliseFlow/cover.jpg",
+      "cover": "projects/web/Elise/cover.jpg",
       "media": [
         {
           "type": "img",
-          "src": "projects/desktop/EliseFlow/screen-01.jpg",
+          "src": "projects/web/Elise/screen-01.jpg",
           "w": 1170,
           "h": 2532,
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Onboarding",
             "fr": "Onboarding"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/desktop/EliseFlow/screen-02.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
           }
         }
       ]
@@ -482,7 +406,7 @@
         {
           "type": "video",
           "src": "projects/mobile/VTCSmartApp/demo.mp4",
-          "poster": "projects/mobile/VTCSmartApp/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -581,6 +505,82 @@
     },
     {
       "title": {
+        "en": "Elise Flow - Electronic Signature",
+        "fr": "Elise Flow - Signature Électronique"
+      },
+      "slug": "EliseFlow",
+      "type": "desktop",
+      "year": 2023,
+      "period": {
+        "en": "Jan 2023 - Present",
+        "fr": "Janv 2023 - Présent"
+      },
+      "desc": {
+        "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
+        "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+      },
+      "stack": [
+        "UWP",
+        "WPF",
+        "ASP.NET Core",
+        "SOAP",
+        "iText",
+        "PDF Processing"
+      ],
+      "highlights": [
+        {
+          "en": "Secure electronic document signing",
+          "fr": "Signature électronique sécurisée"
+        },
+        {
+          "en": "PDF document processing and manipulation",
+          "fr": "Traitement et manipulation de documents PDF"
+        },
+        {
+          "en": "Document workflow management",
+          "fr": "Gestion des flux documentaires"
+        },
+        {
+          "en": "Multi-user collaboration features",
+          "fr": "Fonctionnalités de collaboration multi-utilisateurs"
+        },
+        {
+          "en": "Audit trail and version control",
+          "fr": "Historique des modifications et contrôle de version"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/desktop/EliseFlow/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/desktop/EliseFlow/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/EliseFlow/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "BlooDon - Blood Donation Platform",
         "fr": "BlooDon - Plateforme de Don de Sang"
       },
@@ -633,7 +633,7 @@
         {
           "type": "video",
           "src": "projects/mobile/BlooDon/demo.mp4",
-          "poster": "projects/mobile/BlooDon/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -795,7 +795,7 @@
         {
           "type": "video",
           "src": "projects/mobile/EliseMobilePFE/demo.mp4",
-          "poster": "projects/mobile/EliseMobilePFE/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -931,7 +931,7 @@
         {
           "type": "video",
           "src": "projects/mobile/baladiti/demo.mp4",
-          "poster": "projects/mobile/baladiti/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -1063,60 +1063,6 @@
     },
     {
       "title": {
-        "en": "Chkoba Card Game",
-        "fr": "Jeu de Cartes Chkoba"
-      },
-      "slug": "Chkobaa",
-      "type": "desktop",
-      "year": 2021,
-      "period": {
-        "en": "Feb 2021",
-        "fr": "Fév 2021"
-      },
-      "desc": {
-        "en": "Second-year engineering project: A multiplayer desktop application for playing Chkoba, a traditional Tunisian card game, over a local network.",
-        "fr": "Projet de deuxième année d'ingénierie : Application desktop multijoueur pour jouer au Chkoba, un jeu de cartes tunisien traditionnel, en réseau local."
-      },
-      "stack": [
-        "Java Swing",
-        "Socket Programming",
-        "MySQL"
-      ],
-      "highlights": [
-        {
-          "en": "Real-time multiplayer gameplay",
-          "fr": "Jeu multijoueur en temps réel"
-        },
-        {
-          "en": "Local network connectivity",
-          "fr": "Connexion via réseau local"
-        },
-        {
-          "en": "Authentic Chkoba rules implementation",
-          "fr": "Implémentation des règles authentiques du Chkoba"
-        }
-      ],
-      "links": {
-        "demo": "",
-        "code": ""
-      },
-      "cover": "projects/desktop/Chkobaa/cover.jpg",
-      "media": [
-        {
-          "type": "img",
-          "src": "projects/desktop/Chkobaa/screen-01.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "desktop",
-          "caption": {
-            "en": "Onboarding",
-            "fr": "Onboarding"
-          }
-        }
-      ]
-    },
-    {
-      "title": {
         "en": "CRUD Angular",
         "fr": "CRUD Angular"
       },
@@ -1220,6 +1166,60 @@
     },
     {
       "title": {
+        "en": "Chkoba Card Game",
+        "fr": "Jeu de Cartes Chkoba"
+      },
+      "slug": "Chkobaa",
+      "type": "desktop",
+      "year": 2021,
+      "period": {
+        "en": "Feb 2021",
+        "fr": "Fév 2021"
+      },
+      "desc": {
+        "en": "Second-year engineering project: A multiplayer desktop application for playing Chkoba, a traditional Tunisian card game, over a local network.",
+        "fr": "Projet de deuxième année d'ingénierie : Application desktop multijoueur pour jouer au Chkoba, un jeu de cartes tunisien traditionnel, en réseau local."
+      },
+      "stack": [
+        "Java Swing",
+        "Socket Programming",
+        "MySQL"
+      ],
+      "highlights": [
+        {
+          "en": "Real-time multiplayer gameplay",
+          "fr": "Jeu multijoueur en temps réel"
+        },
+        {
+          "en": "Local network connectivity",
+          "fr": "Connexion via réseau local"
+        },
+        {
+          "en": "Authentic Chkoba rules implementation",
+          "fr": "Implémentation des règles authentiques du Chkoba"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/desktop/Chkobaa/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/desktop/Chkobaa/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "desktop",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "Debt Management System",
         "fr": "Système de Gestion de Dettes"
       },
@@ -1257,7 +1257,7 @@
         {
           "type": "video",
           "src": "projects/desktop/GestionDette/demo.mp4",
-          "poster": "projects/desktop/GestionDette/cover.jpg",
+          "poster": "cover.jpg",
           "device": "desktop",
           "caption": {
             "en": "Purchase flow",
@@ -1422,6 +1422,175 @@
     },
     {
       "title": {
+        "en": "AGIS Market",
+        "fr": "AGIS Market"
+      },
+      "slug": "agis-market",
+      "type": "mobile",
+      "year": 2020,
+      "period": {
+        "en": "Aug-Sep 2020",
+        "fr": "Août-Sep 2020"
+      },
+      "desc": {
+        "en": "During my second-year engineering summer internship at AGIS Design, I developed this Android e-commerce application for clothing sales with real-time features.",
+        "fr": "Lors de mon stage d'été de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application e-commerce Android pour la vente de vêtements avec des fonctionnalités en temps réel."
+      },
+      "stack": [
+        "Java",
+        "Android SDK",
+        "PHP",
+        "SQLite",
+        "Firebase"
+      ],
+      "highlights": [
+        {
+          "en": "Biometric authentication for secure login",
+          "fr": "Authentification biométrique pour une connexion sécurisée"
+        },
+        {
+          "en": "Offline cart functionality with sync",
+          "fr": "Panier disponible hors ligne avec synchronisation"
+        },
+        {
+          "en": "Real-time order tracking system",
+          "fr": "Système de suivi de commandes en temps réel"
+        },
+        {
+          "en": "Clothing catalog with filters",
+          "fr": "Catalogue de vêtements avec filtres"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/agis-market/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/agis-market/demo.mp4",
+          "poster": "cover.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-03.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-04.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-05.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-06.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-07.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-08.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-09.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/agis-market/screen-10.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "AGIS Embedded Sales",
         "fr": "AGIS Vente Embarqué"
       },
@@ -1470,7 +1639,7 @@
         {
           "type": "video",
           "src": "projects/mobile/AGISVenteEmbarqué/demo.mp4",
-          "poster": "projects/mobile/AGISVenteEmbarqué/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -1646,175 +1815,6 @@
     },
     {
       "title": {
-        "en": "AGIS Market",
-        "fr": "AGIS Market"
-      },
-      "slug": "agis-market",
-      "type": "mobile",
-      "year": 2020,
-      "period": {
-        "en": "Aug-Sep 2020",
-        "fr": "Août-Sep 2020"
-      },
-      "desc": {
-        "en": "During my second-year engineering summer internship at AGIS Design, I developed this Android e-commerce application for clothing sales with real-time features.",
-        "fr": "Lors de mon stage d'été de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application e-commerce Android pour la vente de vêtements avec des fonctionnalités en temps réel."
-      },
-      "stack": [
-        "Java",
-        "Android SDK",
-        "PHP",
-        "SQLite",
-        "Firebase"
-      ],
-      "highlights": [
-        {
-          "en": "Biometric authentication for secure login",
-          "fr": "Authentification biométrique pour une connexion sécurisée"
-        },
-        {
-          "en": "Offline cart functionality with sync",
-          "fr": "Panier disponible hors ligne avec synchronisation"
-        },
-        {
-          "en": "Real-time order tracking system",
-          "fr": "Système de suivi de commandes en temps réel"
-        },
-        {
-          "en": "Clothing catalog with filters",
-          "fr": "Catalogue de vêtements avec filtres"
-        }
-      ],
-      "links": {
-        "demo": "",
-        "code": ""
-      },
-      "cover": "projects/mobile/agis-market/cover.jpg",
-      "media": [
-        {
-          "type": "video",
-          "src": "projects/mobile/agis-market/demo.mp4",
-          "poster": "projects/mobile/agis-market/cover.jpg",
-          "device": "phone",
-          "caption": {
-            "en": "Purchase flow",
-            "fr": "Parcours d’achat"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-01.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Onboarding",
-            "fr": "Onboarding"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-02.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-03.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-04.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-05.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-06.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-07.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-08.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-09.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/agis-market/screen-10.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        }
-      ]
-    },
-    {
-      "title": {
         "en": "Cough Diagnostic System",
         "fr": "Système de Diagnostic de Toux"
       },
@@ -1864,7 +1864,7 @@
         {
           "type": "video",
           "src": "projects/mobile/autodiagnostic/demo.mp4",
-          "poster": "projects/mobile/autodiagnostic/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",
@@ -2054,7 +2054,7 @@
         {
           "type": "video",
           "src": "projects/mobile/supervisioncarrefour/demo.mp4",
-          "poster": "projects/mobile/supervisioncarrefour/cover.jpg",
+          "poster": "cover.jpg",
           "device": "phone",
           "caption": {
             "en": "Purchase flow",

@@ -58,8 +58,9 @@ const progress = ref(0)
 const activeKey = ref<Key>('hero')
 
 const imgLogo = computed(() =>
-  assetUrl(theme.value === 'dark' ? 'img/logo-dark.png' : 'img/logo-light.png')
-)
+    assetUrl(`img/${(document.documentElement.dataset.theme ?? 'dark') === 'dark'
+    ? 'logo-dark.png'
+    : 'logo-light.png'}`))
 function closeMobile(){ open.value = false }
 function applyTheme(){ document.documentElement.dataset.theme = theme.value; localStorage.setItem('theme', theme.value) }
 function toggleTheme(){ theme.value = theme.value === 'dark' ? 'light' : 'dark'; applyTheme() }

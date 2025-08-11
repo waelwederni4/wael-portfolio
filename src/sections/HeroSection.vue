@@ -11,7 +11,7 @@
           <a href="#contact" class="btn ghost">{{ $t('hero.contact') }}</a>
         </div>
       </div>
-      <img class="avatar" src="/img/portrait.jpg" alt="Portrait of Wael Wederni" />
+      <img class="avatar" :src="portraitUrl" alt="Portrait of Wael Wederni" />
     </div>
   </section>
 </template>
@@ -20,9 +20,12 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { profile } from '@/data/profile'
+import { assetUrl } from '@/utils/asset'
 const { locale } = useI18n()
 const title = computed(() => locale.value === 'fr' ? profile.titleFr : profile.titleEn)
 const current = computed(() => locale.value === 'fr' ? profile.currentRoleFr : profile.currentRoleEn)
+const portraitUrl = assetUrl('img/portrait.jpg')
+
 </script>
 
 <style scoped>
