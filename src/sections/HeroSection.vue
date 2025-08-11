@@ -7,7 +7,7 @@
         <p class="headline">{{ title }}</p>
         <p class="muted">{{ current }}</p>
         <div class="actions">
-          <a :href="profile.cvUrl" class="btn" target="_blank" rel="noopener">{{ $t('hero.download') }}</a>
+          <a :href="cvHref" class="btn" target="_blank" rel="noopener">{{ $t('hero.download') }}</a>
           <a href="#contact" class="btn ghost">{{ $t('hero.contact') }}</a>
         </div>
       </div>
@@ -25,6 +25,7 @@ const { locale } = useI18n()
 const title = computed(() => locale.value === 'fr' ? profile.titleFr : profile.titleEn)
 const current = computed(() => locale.value === 'fr' ? profile.currentRoleFr : profile.currentRoleEn)
 const portraitUrl = assetUrl('img/portrait.jpg')
+const cvHref = computed(() => assetUrl(locale.value === 'fr' ? profile.cv.fr : profile.cv.en))
 
 </script>
 

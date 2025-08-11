@@ -34,11 +34,11 @@ export interface Project {
 }
 
 export interface Experience {
-  company: string
-  role: string
-  location?: string
-  period: string
-  type?: 'fulltime'|'intern'|'parttime'
-  bullets: string[]
-  stack?: string[]
+  company: Localized;
+  role: Localized;
+  location?: Localized;
+  period: Localized;
+  type?: 'fulltime' | 'intern' | 'parttime';
+  bullets: Localized[];   // each item can be a string or { en, fr }
+  stack?: string[];
 }
