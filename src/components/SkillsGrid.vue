@@ -18,5 +18,5 @@ defineProps<{ skills: string[]; tools: string[] }>()
 
 <style scoped>
 .chips{list-style:none;margin:8px 0 0;padding:0;display:flex;gap:8px;flex-wrap:wrap}
-.chip{background:var(--panel);border:1px solid var(--border);padding:8px 12px;border-radius:999px}
+.chip{background:var(--panel);border:1px solid var(--border-P);padding:8px 12px;border-radius:999px}
 </style>

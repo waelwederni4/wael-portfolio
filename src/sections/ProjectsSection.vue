@@ -4,7 +4,8 @@
 
     <div class="toolbar">
       <input v-model="q" type="search" class="search" :placeholder="$t('projects.search') as string" aria-label="Search" />
-      <ul class="filters" role="tablist" aria-label="Filter by type">
+      <div class="actionsToolbar">
+        <ul class="filters" role="tablist" aria-label="Filter by type">
         <li><button class="filter" :aria-pressed="type==='all'"     @click="type='all'">{{ $t('projects.filters.all') }}</button></li>
         <li><button class="filter" :aria-pressed="type==='mobile'"  @click="type='mobile'">{{ $t('projects.filters.mobile') }}</button></li>
         <li><button class="filter" :aria-pressed="type==='web'"     @click="type='web'">{{ $t('projects.filters.web') }}</button></li>
@@ -17,6 +18,7 @@
           <option value="az">{{ $t('projects.az') }}</option>
           <option value="za">{{ $t('projects.za') }}</option>
         </select>
+      </div>
       </div>
     </div>
 
@@ -97,6 +99,7 @@ onMounted(loadAll)
   display: grid;
   grid-template-columns: 1fr auto auto;
   gap: 12px; align-items: center; margin: 10px 0 18px;
+  .actionsToolbar{ display: flex; gap: 12px; align-items: center; justify-content: center; }
 }
 @media (max-width: 860px){ .toolbar{ grid-template-columns: 1fr } }
 
@@ -129,6 +132,6 @@ onMounted(loadAll)
 }
 .select:focus{ border-color: var(--brand); box-shadow: 0 0 0 3px var(--ring) }
 
-.grid{ display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px }
+.grid{ display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px ; padding: 0px !important;}
 .empty{ color: var(--muted); padding: 10px 0 }
 </style>

@@ -4,6 +4,7 @@
   --nav-h: 64px;
   --panel: #ffffff;        /* panels/cards */
   --border: #e6e8eb;       /* subtle borders */
+  --border-P: #525252;       /* subtle borders */
   --text: #0f141b;         /* main text */
   --muted: #5f6b7a;        /* secondary text */
   --surface: #f7f9fc;      /* inputs / surfaces */
@@ -16,6 +17,7 @@
 
   --panel: #0f141b;
   --border: #243042;
+  --border-P: #243042;       /* subtle borders */
   --text: #e6edf3;
   --muted: #9aa4b2;
   --surface: #141824;
