@@ -1087,7 +1087,80 @@
       "media": [
         {
           "type": "img",
-          "src": "projects/web/CrudAngular/1.jpg"
+          "src": "projects/web/CrudAngular/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/screen-03.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/screen-04.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/screen-05.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/screen-06.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/web/CrudAngular/screen-07.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
         }
       ]
     },

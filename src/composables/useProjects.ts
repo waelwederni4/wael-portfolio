@@ -12,7 +12,7 @@ export function useProjects() {
     if (state.value.items.length || state.value.loading) return
     state.value.loading = true
     try {
-      const url = `${import.meta.env.BASE_URL}projects/index.json`   
+      const url = `${import.meta.env.BASE_URL}projects/index.json`  
       const res = await fetch(url, { cache: 'no-store' })
       if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`)
       const data = await res.json()

@@ -1,4 +1,5 @@
-export function assetUrl(p: string) {
+export function assetUrl(p?: string) {
   const base = import.meta.env.BASE_URL || '/';
-  return base + p.replace(/^\/+/, ''); // strip leading slashes
+  if (!p) return base;
+  return base + p.replace(/^\/+/, '');
 }

@@ -5,5 +5,13 @@
   "stack": ["Angular", "Node.js"],
   "links": { "demo": "", "code": "" },
   "cover": "cover.jpg",
-  "media": [{ "type": "img", "src": "1.jpg" }]
+    "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
 }
