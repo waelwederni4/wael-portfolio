@@ -58,7 +58,7 @@ const progress = ref(0)
 const activeKey = ref<Key>('hero')
 
 const imgLogo = computed(() =>
-    assetUrl(`img/${(document.documentElement.dataset.theme ?? 'dark') === 'dark'
+    assetUrl(`img/${(theme.value ?? 'dark') === 'dark'
     ? 'logo-dark.png'
     : 'logo-light.png'}`))
 function closeMobile(){ open.value = false }

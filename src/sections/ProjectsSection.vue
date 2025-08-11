@@ -11,7 +11,6 @@
         <li><button class="filter" :aria-pressed="type==='desktop'" @click="type='desktop'">{{ $t('projects.filters.desktop') }}</button></li>
       </ul>
       <div class="sortWrap">
-        <label for="sort" class="sortLbl">{{ $t('projects.sort') }}</label>
         <select id="sort" v-model="sort" class="select">
           <option value="newest">{{ $t('projects.newest') }}</option>
           <option value="oldest">{{ $t('projects.oldest') }}</option>
@@ -109,15 +108,14 @@ onMounted(loadAll)
 .search:focus{ border-color: var(--brand); box-shadow: 0 0 0 3px var(--ring) }
 
 .filters, .filters li{ list-style: none; margin: 0; padding: 0 }
-.filters{ display:flex; gap:8px; align-items:center; flex-wrap:wrap }
+.filters{ display:flex; gap:4px; align-items:center; flex-wrap:wrap }
 .filter{
   border: 1px solid var(--border); background: transparent; color: var(--text);
-  border-radius: 999px; padding: 8px 12px; cursor: pointer; transition: box-shadow .15s ease, border-color .15s ease, background .15s ease
+  border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: box-shadow .15s ease, border-color .15s ease, background .15s ease
 }
 .filter:hover{ border-color: var(--brand); background: color-mix(in oklab, var(--brand) 10%, transparent) }
 .filter[aria-pressed="true"]{ border-color: var(--brand); background: color-mix(in oklab, var(--brand) 18%, transparent); box-shadow: inset 0 0 0 3px var(--ring) }
 
-.sortWrap{ display:flex; align-items:center; gap:8px; justify-self:end }
 .sortLbl{ color: var(--muted) }
 .select{
   appearance: none; padding: 10px 34px 10px 12px; border-radius: 12px;

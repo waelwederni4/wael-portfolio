@@ -6,7 +6,8 @@ export const profile = {
   currentRoleFr: 'Ingénieur Full Stack & Développeur Web/Mobile @ NeoLedge (juil. 2022 – aujourd’hui)',
   location: 'Tataouine, Tunisia',
   email: 'waelwederni@outlook.fr',
-  phone: '+216 25 488 161 / +216 93 488 161',
+  phone1: '+216 25 488 161',
+  phone2: '+216 93 488 161',
   links: {
     linkedin: 'https://linkedin.com/in/wael-wederni',
     github: 'https://github.com/waelwederni4'

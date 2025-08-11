@@ -3,7 +3,8 @@
     <h2>{{ $t('contact.title') }}</h2>
     <div class="grid">
       <a class="card" :href="'mailto:' + email"><strong>{{ $t('contact.email') }}</strong><span>{{ email }}</span></a>
-      <a class="card" :href="'tel:' + phone"><strong>{{ $t('contact.phone') }}</strong><span>{{ phone }}</span></a>
+      <a class="card" :href="'tel:' + phone1"><strong>{{ $t('contact.phone') }}</strong><span>{{ phone1 }}</span></a>
+      <a class="card" :href="'tel:' + phone2"><strong>{{ $t('contact.phone') }}</strong><span>{{ phone2 }}</span></a>
       <a class="card" :href="links.linkedin" target="_blank" rel="noopener"><strong>{{ $t('contact.linkedin') }}</strong><span>{{ links.linkedin }}</span></a>
       <a class="card" :href="links.github" target="_blank" rel="noopener"><strong>{{ $t('contact.github') }}</strong><span>{{ links.github }}</span></a>
     </div>
@@ -12,7 +13,7 @@
 
 <script setup lang="ts">
 import { profile } from '@/data/profile'
-const { email, phone, links } = profile
+const { email, phone1,phone2, links } = profile
 </script>
 
 <style scoped>
