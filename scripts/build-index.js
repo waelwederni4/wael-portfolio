@@ -21,8 +21,6 @@ function build(){
       if (!fs.existsSync(projPath)) { console.warn(`WARN: missing ${type}/${slug}/project.json`); continue }
       const data = readJSON(projPath)
 
-      const basePath = `projects/${type}/${slug}` // <-- NO leading slash
-
       all.push({
         title: data.title || slug,
         slug,
@@ -33,15 +31,13 @@ function build(){
         stack: data.stack || data.technologies || [],
         highlights: data.highlights || [],
         links: data.links || { demo: data.demoUrl || '', code: data.repoUrl || '' },
-        cover: `${basePath}/${data.cover || 'cover.jpg'}`,
+        cover: `projects/${type}/${slug}/${data.cover || 'cover.jpg'}`,
         media: (data.media || data.screenshots || []).map(m => {
-          const src = typeof m === 'string' ? m : (m.src || '')
+          const item = typeof m === 'string' ? { src: m } : m
           return {
-            type: (typeof m === 'string' ? 'img' : (m.type || 'img')),
-            src:  `${basePath}/${src}`,           // <-- NO leading slash
-            device: typeof m === 'string' ? undefined : m.device,
-            caption: typeof m === 'string' ? undefined : m.caption,
-            poster: typeof m === 'string' ? undefined : m.poster
+            ...item,
+            type: item.type || 'img',
+            src: `projects/${type}/${slug}/${item.src}`
           }
         })
       })
