@@ -8,7 +8,7 @@
       aria-labelledby="dialog-title"
       @mousedown.self="$emit('close')"
     >
-      <!-- Sticky header -->
+      <!-- Header -->
       <header class="pro-header">
         <div class="left">
           <span class="dot" :data-type="p?.type" />
@@ -26,7 +26,6 @@
       <main class="pro-main">
         <!-- Viewer column -->
         <section class="viewer">
-          <!-- Stage fills available height -->
           <div class="stage">
             <button class="arrow left" @click="prevMedia" aria-label="Previous">‹</button>
 
@@ -62,13 +61,11 @@
             <button class="arrow right" @click="nextMedia" aria-label="Next">›</button>
           </div>
 
-          <!-- Meta row -->
           <div class="meta">
             <span v-if="caption" class="caption">{{ caption }}</span>
             <span class="counter">{{ mIndex + 1 }} / {{ p!.media!.length }}</span>
           </div>
 
-          <!-- Always-tiny thumbs row -->
           <div class="filmstrip" v-if="(p?.media?.length || 0) > 1" ref="thumbsEl">
             <button
               v-for="(m, i) in p!.media!"
@@ -101,10 +98,28 @@
 
           <div v-if="(p?.highlights?.length || 0) > 0" class="blk">
             <h3>{{ t('ui.highlights') || 'Highlights' }}</h3>
-            <ul class="list"><li v-for="(h, i) in p!.highlights!" :key="i">{{ l10n(h) }}</li></ul>
+            <ul class="list"><li v-for="(h, i) in (p!.highlights as any)!" :key="i">{{ l10n(h) }}</li></ul>
           </div>
 
-          <div class="blk" v-if="((p?.stack?.length || 0) > 0)">
+          <!-- NEW: Roles -->
+          <div v-if="rolesList.length" class="blk">
+            <h3>{{ t('ui.roles') || 'Roles' }}</h3>
+            <ul class="list"><li v-for="(r, i) in rolesList" :key="i">{{ r }}</li></ul>
+          </div>
+
+          <!-- NEW: Team -->
+          <div v-if="teamList.length" class="blk">
+            <h3>{{ t('ui.team') || 'Team' }}</h3>
+            <ul class="list"><li v-for="(m, i) in teamList" :key="i">{{ m }}</li></ul>
+          </div>
+
+          <!-- NEW: Achievements -->
+          <div v-if="achievementsList.length" class="blk">
+            <h3>{{ t('ui.achievements') || 'Achievements' }}</h3>
+            <ul class="list"><li v-for="(a, i) in achievementsList" :key="i">{{ a }}</li></ul>
+          </div>
+
+          <div class="blk" v-if="(p?.stack?.length || 0) > 0">
             <h4 class="muted">{{ t('ui.stack') || 'Tech stack' }}</h4>
             <div class="chips"><span v-for="tch in p!.stack!" :key="tch" class="chip">{{ tch }}</span></div>
           </div>
@@ -134,7 +149,7 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { assetUrl } from '@/utils/asset'
-import type { Project, Localized } from '@/types'
+import type { Project, Localized, LocalizedList } from '@/types'
 
 const props = defineProps<{ show: boolean; p: Project|null }>()
 const emit  = defineEmits(['close','next','prev','chip'])
@@ -143,12 +158,20 @@ const emit  = defineEmits(['close','next','prev','chip'])
 const { locale, t } = ((): any => {
   try { return useI18n() } catch { return { locale: { value: 'en' }, t: (k:string)=>k } }
 })()
+
 function l10n(val?: Localized, fallback = ''): string {
   if (!val) return fallback
   if (typeof val === 'string') return val
   const lang = String(locale.value || 'en').slice(0,2)
   return (val as any)[lang] ?? (val as any).en ?? (val as any).fr ?? fallback
 }
+function l10nList(val?: LocalizedList): string[] {
+  if (!val) return []
+  if (Array.isArray(val)) return val
+  const lang = String(locale.value || 'en').slice(0,2)
+  return val[lang] ?? val.en ?? Object.values(val)[0] ?? []
+}
+
 const title     = computed(() => props.p ? l10n(props.p.title) : '')
 const typeLabel = computed(() => props.p ? (t?.(`types.${props.p.type}`) ?? props.p.type) : '')
 
@@ -158,19 +181,33 @@ const mIndex       = ref(0)
 const currentMedia = computed(() => props.p?.media?.[mIndex.value] || null)
 const caption      = computed(() => currentMedia.value ? l10n((currentMedia.value as any).caption) : '')
 
-/* device + default frame */
+/* roles/team/achievements */
+const rolesList        = computed(() => l10nList(props.p?.roles as any))
+const teamList         = computed(() => l10nList(props.p?.team as any))
+const achievementsList = computed(() => l10nList(props.p?.achievements as any))
+
+/* device */
 type Device = 'phone'|'tablet'|'browser'
 const deviceClass = computed<Device>(() => {
   const m = currentMedia.value as any
-  if (m?.device) return m.device as Device
-  if (props.p?.type === 'mobile') return 'phone'
-  if (props.p?.type === 'desktop') return 'browser'
-  return 'browser'
+  const raw = m?.device || props.p?.type
+  // normalize "desktop" -> "browser"
+  if (raw === 'desktop') return 'browser'
+  if (raw === 'mobile')  return 'phone'
+  if (raw === 'web')     return 'browser'
+  return (raw as Device) || 'browser'
 })
+
+/* basic controls */
 const orientation = ref<'portrait'|'landscape'>('portrait')
 const fit         = ref<'contain'|'cover'>('contain')
-const defaultFrame = computed(() => deviceClass.value === 'phone' ? 360 : deviceClass.value === 'tablet' ? 820 : 1040)
-const frame        = ref<number>(defaultFrame.value)
+
+/* frame size by device */
+const defaultFrame = computed(() =>
+  deviceClass.value === 'phone'  ? 360 :
+  deviceClass.value === 'tablet' ? 820  : 1040
+)
+const frame = ref<number>(defaultFrame.value)
 watch(deviceClass, () => { frame.value = defaultFrame.value })
 
 /* zoom + pan */
@@ -232,7 +269,7 @@ function prevMedia(){
 }
 function goMedia(i:number){ if (!hasMedia.value) return; zoom.value=1; resetPan(); mIndex.value = i; thumbIntoView() }
 
-/* BODY + HTML SCROLL LOCK (iOS-safe) */
+/* page scroll lock (iOS-safe) */
 let savedY = 0
 function lockPage(){
   savedY = window.scrollY || 0

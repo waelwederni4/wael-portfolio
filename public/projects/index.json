@@ -131,6 +131,69 @@
     },
     {
       "title": {
+        "en": "Elise - Enterprise Content Management",
+        "fr": "Elise - Gestion Électronique de Documents"
+      },
+      "slug": "EliseFlow",
+      "type": "web",
+      "year": 2024,
+      "period": {
+        "en": "Jan 2024 - Present",
+        "fr": "Janv 2024 - Présent"
+      },
+      "desc": {
+        "en": "Comprehensive ECM solution centralizing corporate document management with secure storage, advanced search, workflow automation, and compliance features. Enables paperless operations with version control, e-signatures, and audit trails.",
+        "fr": "Solution GED complète centralisant la gestion documentaire d'entreprise avec stockage sécurisé, recherche avancée, automatisation des flux et conformité. Permet une dématérialisation avec contrôle de version, signatures électroniques et traçabilité."
+      },
+      "stack": [
+        "Vue.js",
+        "Tailwind CSS",
+        "ASP.NET Core",
+        "REST API",
+        "Azure Blob Storage",
+        "iText PDF"
+      ],
+      "highlights": [
+        {
+          "en": "Centralized document repository with metadata tagging",
+          "fr": "Dépôt documentaire centralisé avec étiquetage métadonnées"
+        },
+        {
+          "en": "Optical Character Recognition (OCR) integration",
+          "fr": "Intégration de reconnaissance de texte (OCR)"
+        },
+        {
+          "en": "Role-based access control (RBAC)",
+          "fr": "Contrôle d'accès basé sur les rôles (RBAC)"
+        },
+        {
+          "en": "Automated retention policy enforcement",
+          "fr": "Application automatisée des politiques de conservation"
+        },
+        {
+          "en": "Mobile-responsive web interface",
+          "fr": "Interface web adaptée aux mobiles"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/web/EliseFlow/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/web/EliseFlow/screen-01.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
         "en": "Taxi 5 - Driver Management System",
         "fr": "Taxi 5 - Système de Gestion pour Chauffeurs"
       },
@@ -382,6 +445,78 @@
         {
           "type": "img",
           "src": "projects/mobile/VTCSmartApp/screen-08.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Elise Flow - Electronic Signature",
+        "fr": "Elise Flow - Signature Électronique"
+      },
+      "slug": "EliseFlow",
+      "type": "desktop",
+      "year": 2023,
+      "period": {
+        "en": "Jan 2023 - Present",
+        "fr": "Janv 2023 - Présent"
+      },
+      "desc": {
+        "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
+        "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+      },
+      "stack": [
+        "UWP",
+        "WPF",
+        "ASP.NET Core",
+        "SOAP",
+        "iText",
+        "PDF Processing"
+      ],
+      "highlights": [
+        {
+          "en": "Secure electronic document signing",
+          "fr": "Signature électronique sécurisée"
+        },
+        {
+          "en": "PDF document processing and manipulation",
+          "fr": "Traitement et manipulation de documents PDF"
+        },
+        {
+          "en": "Document workflow management",
+          "fr": "Gestion des flux documentaires"
+        },
+        {
+          "en": "Multi-user collaboration features",
+          "fr": "Fonctionnalités de collaboration multi-utilisateurs"
+        },
+        {
+          "en": "Audit trail and version control",
+          "fr": "Historique des modifications et contrôle de version"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/desktop/EliseFlow/cover.jpg",
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/desktop/EliseFlow/screen-01.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/desktop/EliseFlow/screen-02.jpg",
           "device": "phone",
           "caption": {
             "en": "Catalog",
@@ -888,7 +1023,17 @@
         "code": ""
       },
       "cover": "projects/desktop/Chkobaa/cover.jpg",
-      "media": []
+      "media": [
+        {
+          "type": "img",
+          "src": "projects/desktop/Chkobaa/screen-01.jpg",
+          "device": "desktop",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        }
+      ]
     },
     {
       "title": {
@@ -929,7 +1074,7 @@
         {
           "type": "video",
           "src": "projects/desktop/GestionDette/demo.mp4",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Purchase flow",
             "fr": "Parcours d’achat"
@@ -939,7 +1084,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-01.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Onboarding",
             "fr": "Onboarding"
@@ -948,7 +1093,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-02.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -957,7 +1102,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-03.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -966,7 +1111,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-04.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -975,7 +1120,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-05.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -984,7 +1129,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-06.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -993,7 +1138,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-07.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1002,7 +1147,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-08.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1011,7 +1156,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-09.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1020,7 +1165,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-10.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1029,7 +1174,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-11.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1038,7 +1183,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-12.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1047,7 +1192,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-13.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"
@@ -1056,7 +1201,7 @@
         {
           "type": "img",
           "src": "projects/desktop/GestionDette/screen-14.jpg",
-          "device": "phone",
+          "device": "desktop",
           "caption": {
             "en": "Catalog",
             "fr": "Catalogue"

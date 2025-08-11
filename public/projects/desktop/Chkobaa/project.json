@@ -1,4 +1,5 @@
 {
+	"type":"desktop",
   "title": { 
     "en": "Chkoba Card Game", 
     "fr": "Jeu de Cartes Chkoba" 
@@ -27,5 +28,8 @@
       "fr": "Implémentation des règles authentiques du Chkoba" 
     }
   ],
-  "cover": "cover.jpg"
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Onboarding", "fr": "Onboarding" } }
+  ]
 }
