@@ -1,32 +1,52 @@
 /* src/styles/style.css */
 
-* { box-sizing: border-box }
-/* e.g. in src/styles/style.css */
+* { 
+  box-sizing: border-box;
+}
+
 html.has-overlay, body.has-overlay {
   position: fixed;
   width: 100%;
   overflow: hidden;
 }
 
-html, body, #app { height: 100% }
+html, body, #app { 
+  height: 100%;
+}
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-               'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 
+               'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   color: var(--text);
   background: var(--bg);
   padding-top: var(--nav-h); /* space for fixed navbar */
 }
-body.no-scroll { overflow: hidden; }
 
-h1,h2,h3 { margin: 0 0 10px }
-p { margin: 0 0 10px }
-a { color: inherit }
+body.no-scroll { 
+  overflow: hidden; 
+}
 
-.section { padding: 20px 0 }
+/* Headings and paragraphs */
+h1, h2, h3 { 
+  margin: 0 0 10px;
+}
 
-/* Buttons / chips / tags used across the app */
+p { 
+  margin: 0 0 10px;
+}
+
+a { 
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* Section Styling */
+.section { 
+  padding: 20px 0;
+}
+
+/* Button Styling */
 .btn {
   border: 1px solid var(--border);
   background: color-mix(in oklab, var(--panel) 95%, transparent);
@@ -35,23 +55,118 @@ a { color: inherit }
   padding: 10px 14px;
   cursor: pointer;
   text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
-.btn.ghost { background: transparent }
 
+.btn.ghost { 
+  background: transparent; 
+  border-color: var(--border-P); 
+}
+
+
+/* Chip Styling */
 .chip {
   border: 1px solid var(--border);
   padding: 6px 10px;
   border-radius: 999px;
   color: var(--text);
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
+.chip:hover {
+  background-color: var(--surface);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tag Styling */
 .tag {
   border: 1px dashed var(--border-P);
   padding: 4px 8px;
   border-radius: 8px;
   font-size: 12px;
   color: var(--muted);
+  transition: color 0.3s, border-color 0.3s;
 }
 
-/* Utilities */
-.muted { color: var(--muted) }
+.tag:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+
+/* Timeline Styling */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.role {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--brand); /* Brand color */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  color: var(--muted); /* Muted text color */
+  text-align: right;
+  font-size: 0.875rem;
+}
+
+.meta .sep {
+  margin: 0 6px;
+  opacity: 0.5;
+}
+
+.bullets {
+  margin-top: 8px;
+  list-style-type: disc;
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+.bullets li {
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.stack .tag {
+  font-size: 0.875rem;
+  background-color: var(--surface);
+  color: var(--muted);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 640px) {
+  .head {
+    grid-template-columns: 1fr;
+  }
+  .meta {
+    text-align: left;
+  }
+}

@@ -1,13 +1,12 @@
 export const profile = {
   name: 'Wael Wederni',
-  titleEn: 'Full-Stack Software Engineer · .NET · Mobile · Vue.js',
-  titleFr: 'Ingénieur Logiciel Full-Stack · .NET · Mobile · Vue.js',
+  titleEn: 'Full-Stack Software Engineer · .NET · Mobile · Web',
+  titleFr: 'Ingénieur Logiciel Full-Stack · .NET · Mobile · Web',
   currentRoleEn: 'Full Stack Engineer & Web/Mobile Developer @ NeoLedge (Jul 2022 – present)',
   currentRoleFr: 'Ingénieur Full Stack & Développeur Web/Mobile @ NeoLedge (juil. 2022 – aujourd’hui)',
   location: 'Tataouine, Tunisia',
   email: 'waelwederni@outlook.fr',
-  phone1: '+216 25 488 161',
-  phone2: '+216 93 488 161',
+  phone: '+216 93 488 161',
   links: {
     linkedin: 'https://linkedin.com/in/wael-wederni',
     github: 'https://github.com/waelwederni4'

@@ -35,6 +35,9 @@
       "fr": "Historique des modifications et contrôle de version" 
     }
   ],
+  "links": {
+    "company": "https://neoledge.com"
+  },
   "cover": "cover.jpg",
   "media": [
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },

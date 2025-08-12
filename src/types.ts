@@ -3,7 +3,7 @@ export type ProjectType = 'mobile' | 'web' | 'desktop'
 export type Localized = string | { en: string; fr?: string; [k: string]: string | undefined }
 export type LocalizedList = string[] | { en: string[]; fr?: string[]; [k: string]: string[] | undefined }
 
-export interface LinkSet { demo?: string; code?: string;appstore?: string;playstore?: string; }
+export interface LinkSet { demo?: string; company?: string;appstore?: string;playstore?: string; }
 
 // You can add optional metadata to media items if you like:
 export interface MediaItem {
@@ -36,7 +36,6 @@ export interface Project {
 export interface Experience {
   company: Localized;
   role: Localized;
-  location?: Localized;
   period: Localized;
   type?: 'fulltime' | 'intern' | 'parttime';
   bullets: Localized[];   // each item can be a string or { en, fr }

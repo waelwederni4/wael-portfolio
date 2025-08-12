@@ -37,7 +37,8 @@
   ],
   "links": {
     "playstore": "https://play.google.com/store/apps/details?id=com.septam.eharmonia",
-    "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117"
+    "appstore": "https://apps.apple.com/fr/app/eharmonia/id1098188117",
+    "company": "https://iones.io/"
   },
   "cover": "cover.jpg",
   "media": [

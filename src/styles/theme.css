@@ -1,10 +1,11 @@
 :root {
   --brand: #2196f3;
+  --brand-Sec: #0f4a7a;
   --ring: rgba(33, 150, 243, 0.25);
   --nav-h: 64px;
   --panel: #ffffff;        /* panels/cards */
   --border: #e6e8eb;       /* subtle borders */
-  --border-P: #525252;       /* subtle borders */
+  --border-P: #525252;     /* subtle borders */
   --text: #0f141b;         /* main text */
   --muted: #5f6b7a;        /* secondary text */
   --surface: #f7f9fc;      /* inputs / surfaces */
@@ -13,11 +14,11 @@
 
 :root[data-theme="dark"] {
   --brand: #2196f3;
+  --brand-Sec: #3e9be7;
   --ring: rgba(33, 150, 243, 0.25);
-
   --panel: #0f141b;
   --border: #243042;
-  --border-P: #243042;       /* subtle borders */
+  --border-P: #243042;    
   --text: #e6edf3;
   --muted: #9aa4b2;
   --surface: #141824;

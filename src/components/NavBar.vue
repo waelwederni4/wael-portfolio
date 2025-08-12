@@ -1,36 +1,45 @@
 <template>
-  <div class="nav-progress" :style="{ transform: `scaleX(${progress})` }" />
-  <nav class="nav glass" role="navigation" aria-label="Main">
-    <div class="container wrap">
-      <a class="brand" href="#hero" aria-label="Home" @click="closeMobile">
-        <img class="logo" :src="imgLogo" alt="" width="28" height="28" />
-        <span class="brand-text">Wael Wederni</span>
-      </a>
+  <div>
+    <!-- Navigation Progress Bar -->
+    <div class="nav-progress" :style="{ transform: `scaleX(${progress})` }" />
 
-      <button class="nav-toggle" :aria-expanded="open ? 'true' : 'false'" aria-controls="mobile-menu" @click="open = !open">
-        <svg v-if="!open" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-        <svg v-else width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71L12 12l6.3 6.29-1.41 1.41L10.59 13.41 4.3 19.7 2.89 18.29 9.18 12 2.89 5.71 4.3 4.3l6.29 6.29 6.29-6.29z"/></svg>
-      </button>
+    <!-- Navigation -->
+    <nav class="nav glass" role="navigation" aria-label="Main">
+      <div class="container wrap">
+        <a class="brand" href="#hero" aria-label="Home" @click="closeMobile">
+          <img class="logo" :src="imgLogo" alt="" width="28" height="28" />
+          <span class="brand-text">Wael Wederni</span>
+        </a>
 
-      <ul class="links" ref="linksEl">
-        <li v-for="item in SECTIONS" :key="item">
-          <a class="link" :class="{ active: activeKey === item }" :href="'#' + item" @click="closeMobile">{{ $t('nav.' + labels[item]) }}</a>
-        </li>
-        <span class="indicator" :style="indicatorStyle" aria-hidden="true"></span>
-      </ul>
-
-      <div class="actions">
-        <button class="btn icon" @click="toggleTheme" :aria-label="theme === 'dark' ? 'Switch to light' : 'Basculer en sombre'">
-          <svg v-if="theme==='dark'" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M21.64 13A9 9 0 1 1 11 2.36 7 7 0 1 0 21.64 13z"/></svg>
-          <svg v-else width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M6.76 4.84l-1.8-1.79L3.54 4.46l1.8 1.79L6.76 4.84M1 13h3v-2H1v2m10 10h2v-3h-2v3m7.24-3.16l1.79 1.8l1.41-1.41l-1.79-1.8l-1.41 1.41M20 13h3v-2h-3v2M11 1h2v3h-2V1m7.46 3.54l-1.79 1.8l1.41 1.41l1.8-1.79l-1.42-1.42M4.84 17.24l-1.8 1.79l1.42 1.41l1.79-1.8l-1.41-1.4Z"/></svg>
+        <!-- Mobile Menu Toggle Button -->
+        <button class="nav-toggle" :aria-expanded="open ? 'true' : 'false'" aria-controls="mobile-menu" @click="open = !open">
+          <svg v-if="!open" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+          <svg v-else width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71L12 12l6.3 6.29-1.41 1.41L10.59 13.41 4.3 19.7 2.89 18.29 9.18 12 2.89 5.71 4.3 4.3l6.29 6.29 6.29-6.29z"/></svg>
         </button>
-        <div class="lang">
-          <button class="pill" :class="{ on: lang==='en' }" @click="setLang('en')">EN</button>
-          <button class="pill" :class="{ on: lang==='fr' }" @click="setLang('fr')">FR</button>
+
+        <!-- Navigation Links -->
+        <ul class="links" ref="linksEl">
+          <li v-for="item in SECTIONS" :key="item">
+            <a class="link" :class="{ active: activeKey === item }" :href="'#' + item" @click="closeMobile">{{ $t('nav.' + labels[item]) }}</a>
+          </li>
+          <span class="indicator" :style="indicatorStyle" aria-hidden="true"></span>
+        </ul>
+
+        <!-- Theme Switch and Language Selector -->
+        <div class="actions">
+          <button class="btn icon" @click="toggleTheme" :aria-label="theme === 'dark' ? 'Switch to light' : 'Basculer en sombre'">
+            <svg v-if="theme==='dark'" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M21.64 13A9 9 0 1 1 11 2.36 7 7 0 1 0 21.64 13z"/></svg>
+            <svg v-else width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M6.76 4.84l-1.8-1.79L3.54 4.46l1.8 1.79L6.76 4.84M1 13h3v-2H1v2m10 10h2v-3h-2v3m7.24-3.16l1.79 1.8l1.41-1.41l-1.79-1.8l-1.41 1.41M20 13h3v-2h-3v2M11 1h2v3h-2V1m7.46 3.54l-1.79 1.8l1.41 1.41l1.8-1.79l-1.42-1.42M4.84 17.24l-1.8 1.79l1.42 1.41l1.79-1.8l-1.41-1.4Z"/></svg>
+          </button>
+          <div class="lang">
+            <button class="pill" :class="{ on: lang==='en' }" @click="setLang('en')">EN</button>
+            <button class="pill" :class="{ on: lang==='fr' }" @click="setLang('fr')">FR</button>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
+    <!-- Mobile Menu -->
     <div id="mobile-menu" class="mobile-sheet" :class="{ open }" @click.self="open = false">
       <div class="sheet-panel">
         <ul>
@@ -38,7 +47,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -134,31 +143,216 @@ onBeforeUnmount(() => {
 })
 </script>
 
-<style scoped>
-.nav-progress{ position: fixed; top:0; left:0; height:3px; width:100%; background: linear-gradient(90deg, var(--brand), #7cc6ff); transform-origin: 0 0; transform: scaleX(0); z-index: 50 }
-.nav{ position: fixed; top:0; left:0; right:0; z-index:40; backdrop-filter: saturate(1.6) blur(10px); background: color-mix(in oklab, var(--panel) 80%, transparent); border-bottom:1px solid var(--border) }
-.wrap{ display:flex; align-items:center; justify-content:space-between; height: var(--nav-h) }
-.brand{ display:flex; align-items:center; gap:10px; font-weight:700; text-decoration:none; color: var(--text) }
-.logo{ border-radius: 8px } .brand-text{ white-space: nowrap }
-.links, .links li { list-style: none; margin: 0; padding: 0 }
-.links li::marker { content: '' }
-.links{ position: relative; display:flex; gap:8px; align-items:center; background: color-mix(in oklab, var(--panel) 85%, transparent); border:1px solid var(--border); border-radius:999px; padding:6px }
-.link{ position:relative; padding:8px 12px; border-radius:999px; color: var(--muted); text-decoration: none; transition: color .2s ease }
-.link:hover{ color: var(--text) } .link.active{ color: var(--text) }
-.indicator{ position:absolute; top:4px; height:calc(100% - 8px); border-radius:999px; background: color-mix(in oklab, var(--brand) 18%, transparent); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--brand) 55%, var(--border)); transition: left .25s cubic-bezier(.2,.8,.2,1), width .25s cubic-bezier(.2,.8,.2,1), opacity .2s; pointer-events:none }
-.actions{ display:flex; align-items:center; gap:10px }
-.btn{ border:1px solid var(--border); background: color-mix(in oklab, var(--panel) 90%, transparent); color: var(--text); border-radius: 12px; padding: 8px 12px; cursor: pointer }
-.btn.icon{ display:grid; place-items:center; padding: 6px 8px }
-.lang{ display:flex; gap:6px }
-.pill{ border:1px solid var(--border); background: transparent; color: var(--muted); border-radius:999px; padding: 6px 10px; cursor: pointer }
-.pill.on{ color: var(--text); background: color-mix(in oklab, var(--brand) 18%, transparent) }
-.nav-toggle{ display:none; border:none; background:transparent; color: var(--text) }
-@media (max-width: 920px){ .links{ display:none } .nav-toggle{ display:block } }
-.mobile-sheet{ position: fixed; inset: var(--nav-h) 0 auto 0; display: grid; place-items: start center; z-index: 39; visibility: hidden; pointer-events: none }
-.mobile-sheet.open{ visibility: visible; pointer-events: auto }
-.sheet-panel{ width:min(560px,100%); margin-top:6px; background: color-mix(in oklab, var(--panel) 96%, transparent); border: 1px solid var(--border); border-radius:16px; padding: 12px; transform: translateY(-12px); opacity:0; transition:.22s ease }
-.mobile-sheet.open .sheet-panel{ transform: translateY(0); opacity: 1 }
-.sheet-panel ul{ list-style:none; padding:8px; margin:0; display:flex; flex-direction:column; gap:6px }
-.m-link{ display:block; padding:12px; border-radius:10px; color: var(--text); text-decoration:none }
-.m-link:hover{ background: color-mix(in oklab, var(--brand) 14%, transparent) }
+<style lang="scss" scoped>
+/* Navigation Progress Bar */
+.nav-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--brand-Sec), #0c3555);
+  transform-origin: 0 0;
+  transform: scaleX(0);
+  z-index: 50;
+}
+
+/* Navigation Bar */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  backdrop-filter: saturate(1.6) blur(10px);
+  background: color-mix(in oklab, var(--panel) 80%, transparent);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Main Navigation Layout */
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-h);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.logo {
+  border-radius: 8px;
+}
+
+.brand-text {
+  white-space: nowrap;
+}
+
+/* Navigation Links */
+.links,
+.links li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: color-mix(in oklab, var(--panel) 85%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+}
+
+.link {
+  position: relative;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--text);
+}
+
+.link.active {
+  color: var(--text);
+}
+
+/* Sliding Indicator */
+.indicator {
+  position: absolute;
+  top: 4px;
+  height: calc(100% - 8px);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--brand-Sec) 18%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--brand-Sec) 55%, var(--border));
+  transition: left 0.25s cubic-bezier(.2, .8, .2, 1), width 0.25s cubic-bezier(.2, .8, .2, 1), opacity 0.2s;
+  pointer-events: none;
+}
+
+/* Button Styles */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  border: 1px solid var(--border);
+  background: color-mix(in oklab, var(--panel) 90%, transparent);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn.icon {
+  display: grid;
+  place-items: center;
+  padding: 6px 8px;
+}
+
+.lang {
+  display: flex;
+  gap: 6px;
+}
+
+.pill {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.pill.on {
+  color: var(--text);
+  background: color-mix(in oklab, var(--brand-Sec) 18%, transparent);
+}
+
+.nav-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  color: var(--text);
+}
+
+/* Mobile Menu */
+@media (max-width: 920px) {
+  .links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+/* Mobile Sheet */
+.mobile-sheet {
+  position: fixed;
+  inset: var(--nav-h) 0 auto 0;
+  display: grid;
+  place-items: start center;
+  z-index: 39;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mobile-sheet.open {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.sheet-panel {
+  width: min(560px, 100%);
+  margin-top: 6px;
+  background: color-mix(in oklab, var(--panel) 96%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px;
+  transform: translateY(-12px);
+  opacity: 0;
+  transition: 0.22s ease;
+}
+
+.mobile-sheet.open .sheet-panel {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.sheet-panel ul {
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.m-link {
+  display: block;
+  padding: 12px;
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.m-link:hover {
+  background: color-mix(in oklab, var(--brand-Sec) 14%, transparent);
+}
 </style>

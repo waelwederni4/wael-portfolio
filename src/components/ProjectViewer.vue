@@ -16,11 +16,11 @@
           <small v-if="p?.year" class="muted">· {{ p!.year }}</small>
         </div>
         <div class="right">
-          <a v-if="p?.links?.demo" class="btn ghost" :href="p.links.demo" target="_blank" rel="noopener">{{ t('ui.demo') || 'Demo' }}</a>
-          <a v-if="p?.links?.code" class="btn ghost" :href="p.links.code" target="_blank" rel="noopener">{{ t('ui.code') || 'Code' }}</a>
-          <a v-if="p?.links?.playstore" class="btn ghost" :href="p.links.playstore" target="_blank" rel="noopener">{{ t('ui.playstore') || 'Store' }}</a>
-          <a v-if="p?.links?.appstore" class="btn ghost" :href="p.links.appstore" target="_blank" rel="noopener">{{ t('ui.appstore') || 'Store' }}</a>
-          <button class="btn" ref="closeBtn" @click="$emit('close')" aria-label="Close">✕</button>
+          <a v-if="p?.links?.demo" class="btn ghost" :href="p.links.demo" target="_blank" rel="noopener" aria-label="View Demo">{{ t('ui.demo') || 'Demo' }}</a>
+          <a v-if="p?.links?.company" class="btn ghost" :href="p.links.company" target="_blank" rel="noopener" aria-label="View company">{{ t('ui.company') || 'company' }}</a>
+          <a v-if="p?.links?.playstore" class="btn ghost" :href="p.links.playstore" target="_blank" rel="noopener" aria-label="View Playstore">{{ t('ui.playstore') || 'Store' }}</a>
+          <a v-if="p?.links?.appstore" class="btn ghost" :href="p.links.appstore" target="_blank" rel="noopener" aria-label="View Appstore">{{ t('ui.appstore') || 'Store' }}</a>
+          <button class="btn" ref="closeBtn" @click="$emit('close')" aria-label="Close Viewer">✕</button>
         </div>
       </header>
 
@@ -29,7 +29,7 @@
         <!-- Viewer column -->
         <section class="viewer">
           <div class="stage">
-            <button class="arrow left" @click="prevMedia" aria-label="Previous">‹</button>
+            <button class="arrow left" @click="prevMedia" aria-label="Previous Media">‹</button>
 
             <!-- MEDIA fills the whole stage -->
             <div class="media-box" @pointerdown="onPointerStart">
@@ -62,7 +62,7 @@
               </template>
             </div>
 
-            <button class="arrow right" @click="nextMedia" aria-label="Next">›</button>
+            <button class="arrow right" @click="nextMedia" aria-label="Next Media">›</button>
           </div>
 
           <div class="meta" aria-live="polite">
@@ -140,11 +140,11 @@
             <p class="muted">{{ p?.period ? l10n(p!.period) : p!.year }}</p>
           </div>
 
-          <div v-if="p?.links && (p.links.demo || p.links.code)" class="blk">
+          <div v-if="p?.links && (p.links.demo || p.links.company)" class="blk">
             <h4 class="muted">{{ t('ui.links') || 'Links' }}</h4>
             <ul class="links">
               <li v-if="p.links.demo"><a :href="p.links.demo" target="_blank" rel="noopener">{{ t('ui.demo') || 'Demo' }}</a></li>
-              <li v-if="p.links.code"><a :href="p.links.code" target="_blank" rel="noopener">{{ t('ui.code') || 'Code' }}</a></li>
+              <li v-if="p.links.company"><a :href="p.links.company" target="_blank" rel="noopener">{{ t('ui.company') || 'Company' }}</a></li>
             </ul>
           </div>
         </aside>
@@ -208,13 +208,13 @@ function onPointerStart(e: PointerEvent){
   box.setPointerCapture?.(e.pointerId)
   pointers.set(e.pointerId, {x:e.clientX, y:e.clientY})
   swipeDX = 0; swipeDY = 0
-  const move = (ev: PointerEvent)=>{
+  const move = (ev: PointerEvent)=>{ 
     const prev = pointers.get(ev.pointerId)
     pointers.set(ev.pointerId, {x:ev.clientX, y:ev.clientY})
     swipeDX += ev.clientX - (prev?.x ?? ev.clientX)
     swipeDY += ev.clientY - (prev?.y ?? ev.clientY)
   }
-  const up = ()=>{
+  const up = ()=>{ 
     pointers.delete(e.pointerId)
     box.releasePointerCapture?.(e.pointerId)
     window.removeEventListener('pointermove', move)
@@ -464,7 +464,6 @@ onBeforeUnmount(() => { unlockPage(); window.removeEventListener('keydown', onKe
   transition: transform .15s;
 }
 .arrow:active{ transform: scale(.98) }
-@media (max-width: 560px){ .arrow{ display:none } }
 
 /* Meta + thumbs */
 .meta{
