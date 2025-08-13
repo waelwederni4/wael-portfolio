@@ -1,38 +1,38 @@
 {
   "title": { 
-    "en": "Elise Flow - Electronic Signature", 
-    "fr": "Elise Flow - Signature Électronique" 
+    "en": "Elise Flow – Secure Electronic Signature", 
+    "fr": "Elise Flow – Signature Électronique Sécurisée" 
   },
   "year": 2023,
   "period": { 
-    "en": "Jan 2023 - Present", 
-    "fr": "Janv 2023 - Présent" 
+    "en": "Jan 2023 – Present", 
+    "fr": "Janv. 2023 – Présent" 
   },
   "desc": {
-    "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
-    "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+    "en": "Developed and maintained a UWP application for secure electronic signing of PDF documents, leveraging the iText library. Implemented robust workflow automation, PDF processing, and compliance features to support multi-user collaboration. Responsible for feature enhancements, client technical support, incident resolution, and backend patch deployments.",
+    "fr": "Développement et maintenance d’une application UWP de signature électronique sécurisée de documents PDF, utilisant la bibliothèque iText. Mise en place d’automatisations de workflows, traitement PDF et fonctionnalités de conformité pour la collaboration multi-utilisateurs. Responsable des évolutions, du support technique client, de la résolution d’incidents et du déploiement de correctifs backend."
   },
   "stack": ["UWP", "WPF", "ASP.NET Core", "SOAP", "iText", "PDF Processing"],
   "highlights": [
     { 
-      "en": "Secure electronic document signing", 
-      "fr": "Signature électronique sécurisée" 
+      "en": "End-to-end secure electronic document signing with compliance features", 
+      "fr": "Signature électronique sécurisée de bout en bout avec fonctionnalités de conformité" 
     },
     { 
-      "en": "PDF document processing and manipulation", 
-      "fr": "Traitement et manipulation de documents PDF" 
+      "en": "Advanced PDF document processing and automation", 
+      "fr": "Traitement et automatisation avancés des documents PDF" 
     },
     { 
-      "en": "Document workflow management", 
-      "fr": "Gestion des flux documentaires" 
+      "en": "Customizable document workflow management", 
+      "fr": "Gestion personnalisable des workflows documentaires" 
     },
     { 
-      "en": "Multi-user collaboration features", 
-      "fr": "Fonctionnalités de collaboration multi-utilisateurs" 
+      "en": "Real-time multi-user collaboration", 
+      "fr": "Collaboration multi-utilisateurs en temps réel" 
     },
     { 
-      "en": "Audit trail and version control", 
-      "fr": "Historique des modifications et contrôle de version" 
+      "en": "Comprehensive audit trails and version control", 
+      "fr": "Historique complet des modifications et contrôle de version" 
     }
   ],
   "links": {
@@ -40,7 +40,7 @@
   },
   "cover": "cover.jpg",
   "media": [
-    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "User Onboarding Flow", "fr": "Flux d’Onboarding Utilisateur" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Document Workflow Dashboard", "fr": "Tableau de Bord du Workflow Documentaire" } }
   ]
 }

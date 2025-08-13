@@ -604,19 +604,19 @@
     },
     {
       "title": {
-        "en": "Elise Flow - Electronic Signature",
-        "fr": "Elise Flow - Signature Électronique"
+        "en": "Elise Flow – Secure Electronic Signature",
+        "fr": "Elise Flow – Signature Électronique Sécurisée"
       },
       "slug": "EliseFlow",
       "type": "desktop",
       "year": 2023,
       "period": {
-        "en": "Jan 2023 - Present",
-        "fr": "Janv 2023 - Présent"
+        "en": "Jan 2023 – Present",
+        "fr": "Janv. 2023 – Présent"
       },
       "desc": {
-        "en": "UWP application for electronic document signing using iText library, featuring PDF processing and workflow management. Currently responsible for application maintenance, client support, issue resolution, and backend patch releases.",
-        "fr": "Application UWP de signature électronique de documents PDF utilisant la bibliothèque iText, avec gestion des workflows documentaires. Actuellement responsable du support client, correction des problèmes et déploiement des correctifs pour le backend."
+        "en": "Developed and maintained a UWP application for secure electronic signing of PDF documents, leveraging the iText library. Implemented robust workflow automation, PDF processing, and compliance features to support multi-user collaboration. Responsible for feature enhancements, client technical support, incident resolution, and backend patch deployments.",
+        "fr": "Développement et maintenance d’une application UWP de signature électronique sécurisée de documents PDF, utilisant la bibliothèque iText. Mise en place d’automatisations de workflows, traitement PDF et fonctionnalités de conformité pour la collaboration multi-utilisateurs. Responsable des évolutions, du support technique client, de la résolution d’incidents et du déploiement de correctifs backend."
       },
       "stack": [
         "UWP",
@@ -628,24 +628,24 @@
       ],
       "highlights": [
         {
-          "en": "Secure electronic document signing",
-          "fr": "Signature électronique sécurisée"
+          "en": "End-to-end secure electronic document signing with compliance features",
+          "fr": "Signature électronique sécurisée de bout en bout avec fonctionnalités de conformité"
         },
         {
-          "en": "PDF document processing and manipulation",
-          "fr": "Traitement et manipulation de documents PDF"
+          "en": "Advanced PDF document processing and automation",
+          "fr": "Traitement et automatisation avancés des documents PDF"
         },
         {
-          "en": "Document workflow management",
-          "fr": "Gestion des flux documentaires"
+          "en": "Customizable document workflow management",
+          "fr": "Gestion personnalisable des workflows documentaires"
         },
         {
-          "en": "Multi-user collaboration features",
-          "fr": "Fonctionnalités de collaboration multi-utilisateurs"
+          "en": "Real-time multi-user collaboration",
+          "fr": "Collaboration multi-utilisateurs en temps réel"
         },
         {
-          "en": "Audit trail and version control",
-          "fr": "Historique des modifications et contrôle de version"
+          "en": "Comprehensive audit trails and version control",
+          "fr": "Historique complet des modifications et contrôle de version"
         }
       ],
       "links": {
@@ -660,8 +660,8 @@
           "h": 2532,
           "device": "phone",
           "caption": {
-            "en": "Onboarding",
-            "fr": "Onboarding"
+            "en": "User Onboarding Flow",
+            "fr": "Flux d’Onboarding Utilisateur"
           }
         },
         {
@@ -671,170 +671,8 @@
           "h": 2532,
           "device": "phone",
           "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        }
-      ]
-    },
-    {
-      "title": {
-        "en": "BlooDon - Blood Donation Platform",
-        "fr": "BlooDon - Plateforme de Don de Sang"
-      },
-      "slug": "BlooDon",
-      "type": "mobile",
-      "year": 2022,
-      "period": {
-        "en": "Sep 2022",
-        "fr": "Sep 2022"
-      },
-      "desc": {
-        "en": "Engineering project developed to connect hospitals with blood donors, facilitating donation processes and encouraging regular donors through a mobile application.",
-        "fr": "Projet d'ingénierie développé pour connecter les hôpitaux avec les donneurs de sang, facilitant les processus de don et encourageant les donneurs réguliers via une application mobile."
-      },
-      "stack": [
-        "Flutter",
-        "Dart",
-        "Firebase",
-        "SQLite",
-        "Geolocation"
-      ],
-      "highlights": [
-        {
-          "en": "Donor registration and profile management",
-          "fr": "Enregistrement et gestion de profil des donneurs"
-        },
-        {
-          "en": "Real-time blood needs alerts",
-          "fr": "Alertes en temps réel sur les besoins en sang"
-        },
-        {
-          "en": "Appointment scheduling system",
-          "fr": "Système de prise de rendez-vous"
-        },
-        {
-          "en": "Donation center locator",
-          "fr": "Localisateur de centres de don"
-        },
-        {
-          "en": "Donation history tracking",
-          "fr": "Suivi de l'historique des dons"
-        }
-      ],
-      "links": {
-        "demo": "",
-        "code": ""
-      },
-      "cover": "projects/mobile/BlooDon/cover.jpg",
-      "media": [
-        {
-          "type": "video",
-          "src": "projects/mobile/BlooDon/demo.mp4",
-          "poster": "cover.jpg",
-          "device": "phone",
-          "caption": {
-            "en": "Purchase flow",
-            "fr": "Parcours d’achat"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-01.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Onboarding",
-            "fr": "Onboarding"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-02.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-03.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-04.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-05.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-06.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-07.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-08.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
-          }
-        },
-        {
-          "type": "img",
-          "src": "projects/mobile/BlooDon/screen-09.jpg",
-          "w": 1170,
-          "h": 2532,
-          "device": "phone",
-          "caption": {
-            "en": "Catalog",
-            "fr": "Catalogue"
+            "en": "Document Workflow Dashboard",
+            "fr": "Tableau de Bord du Workflow Documentaire"
           }
         }
       ]
@@ -1385,6 +1223,168 @@
         {
           "type": "img",
           "src": "projects/mobile/baladiti/screen-11.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "BlooDon - Blood Donation Platform",
+        "fr": "BlooDon - Plateforme de Don de Sang"
+      },
+      "slug": "BlooDon",
+      "type": "mobile",
+      "year": 2021,
+      "period": {
+        "en": "Sep 2021",
+        "fr": "Sep 2021"
+      },
+      "desc": {
+        "en": "Engineering project developed to connect hospitals with blood donors, facilitating donation processes and encouraging regular donors through a mobile application.",
+        "fr": "Projet d'ingénierie développé pour connecter les hôpitaux avec les donneurs de sang, facilitant les processus de don et encourageant les donneurs réguliers via une application mobile."
+      },
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "SQLite",
+        "Geolocation"
+      ],
+      "highlights": [
+        {
+          "en": "Donor registration and profile management",
+          "fr": "Enregistrement et gestion de profil des donneurs"
+        },
+        {
+          "en": "Real-time blood needs alerts",
+          "fr": "Alertes en temps réel sur les besoins en sang"
+        },
+        {
+          "en": "Appointment scheduling system",
+          "fr": "Système de prise de rendez-vous"
+        },
+        {
+          "en": "Donation center locator",
+          "fr": "Localisateur de centres de don"
+        },
+        {
+          "en": "Donation history tracking",
+          "fr": "Suivi de l'historique des dons"
+        }
+      ],
+      "links": {
+        "demo": "",
+        "code": ""
+      },
+      "cover": "projects/mobile/BlooDon/cover.jpg",
+      "media": [
+        {
+          "type": "video",
+          "src": "projects/mobile/BlooDon/demo.mp4",
+          "poster": "cover.jpg",
+          "device": "phone",
+          "caption": {
+            "en": "Purchase flow",
+            "fr": "Parcours d’achat"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-01.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Onboarding",
+            "fr": "Onboarding"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-02.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-03.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-04.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-05.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-06.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-07.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-08.jpg",
+          "w": 1170,
+          "h": 2532,
+          "device": "phone",
+          "caption": {
+            "en": "Catalog",
+            "fr": "Catalogue"
+          }
+        },
+        {
+          "type": "img",
+          "src": "projects/mobile/BlooDon/screen-09.jpg",
           "w": 1170,
           "h": 2532,
           "device": "phone",

@@ -2,6 +2,7 @@
   --brand: #2196f3;
   --brand-Sec: #0f4a7a;
   --ring: rgba(33, 150, 243, 0.25);
+  --backdrop:rgba(36, 36, 36, 0.5);
   --nav-h: 64px;
   --panel: #ffffff;        /* panels/cards */
   --border: #e6e8eb;       /* subtle borders */
@@ -16,6 +17,8 @@
   --brand: #2196f3;
   --brand-Sec: #3e9be7;
   --ring: rgba(33, 150, 243, 0.25);
+    --backdrop:rgba(233, 232, 232, 0.5);
+
   --panel: #0f141b;
   --border: #243042;
   --border-P: #243042;    

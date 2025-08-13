@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npm run build:index && vite",
+    "dev": "npm run build:index && vite --host",
     "build": "npm run build:index && vite build",
     "postbuild": "node scripts/make-404.js",
     "preview": "vite preview",

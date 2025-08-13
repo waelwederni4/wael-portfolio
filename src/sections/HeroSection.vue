@@ -5,7 +5,6 @@
         <p class="intro muted">{{ $t('hero.hi') }}</p>
         <h1 class="name">{{ profile.name }}</h1>
         <p class="headline">{{ title }}</p>
-        <p class="current muted">{{ current }}</p>
         <div class="actions">
           <a :href="cvHref" class="btn primary" target="_blank" rel="noopener">{{ $t('hero.download') }}</a>
           <a href="#contact" class="btn secondary">{{ $t('hero.contact') }}</a>

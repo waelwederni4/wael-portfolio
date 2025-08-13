@@ -4,7 +4,6 @@ export const experiences: Experience[] = [
   {
     company: { en: 'NeoLedge', fr: 'NeoLedge' },
     role: { en: 'Full Stack Engineer & Mobile Developer', fr: 'Ingénieur Full-Stack & Développeur Mobile' },
-    location: { en: 'Zarzis', fr: 'Zarzis' },
     period: { en: 'Jul 2022 – Present', fr: '07/2022 – Présent' },
     type: 'fulltime',
     bullets: [
@@ -22,7 +21,6 @@ export const experiences: Experience[] = [
   {
     company: { en: 'NeoLedge', fr: 'NeoLedge' },
     role: { en: 'Mobile Developer Intern – ECM integration (PFE)', fr: 'Stagiaire Développeur Mobile – Intégration GED (PFE)' },
-    location: { en: 'Zarzis', fr: 'Zarzis' },
     period: { en: 'Feb 2022 – Jun 2022', fr: '02/2022 – 06/2022' },
     type: 'intern',
     bullets: [
@@ -38,7 +36,6 @@ export const experiences: Experience[] = [
   {
     company: { en: 'ETAII Software', fr: 'ETAII Software' },
     role: { en: 'Android Developer (Part-time)', fr: 'Développeur Android (Temps partiel)' },
-    location: { en: 'Sfax', fr: 'Sfax' },
     period: { en: 'Jan 2020 – Jul 2020', fr: '01/2020 – 07/2020' },
     type: 'parttime',
     bullets: [
@@ -51,7 +48,6 @@ export const experiences: Experience[] = [
   {
     company: { en: 'SOTECA ELECTRIC', fr: 'SOTECA ELECTRIC' },
     role: { en: 'Mobile & Web Developer Intern', fr: 'Stagiaire Développeur Mobile & Web' },
-    location: { en: 'Sfax', fr: 'Sfax' },
     period: { en: 'Jan 2019 – Mar 2019', fr: '01/2019 – 03/2019' },
     type: 'intern',
     bullets: [

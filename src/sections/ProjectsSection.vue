@@ -28,7 +28,7 @@
       <ProjectCard v-for="p in filtered" :key="p.slug + p.type" :p="p" @open="open(p)" @chip="applyChip" />
     </ul>
 
-    <ProjectViewer :show="show" :p="current" @close="close" @next="next" @prev="prev" @chip="applyChip" />
+    <ProjectViewer v-if="show" :show="show" :p="current" @close="close" @next="next" @prev="prev" @chip="applyChip" />
   </section>
 </template>
 
