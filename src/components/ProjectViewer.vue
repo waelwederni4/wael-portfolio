@@ -113,9 +113,6 @@
                 <figcaption v-if="caption" class="caption-text">{{ caption }}</figcaption>
                 <div v-show="!imgLoaded" class="loader" aria-hidden="true" />
               </figure>
-
-              <!-- Hint when zoomed -->
-              <div v-if="isZoomed" class="hint" role="status">{{ t('ui.dragToPan') || 'Drag to pan · Double‑click to reset' }}</div>
             </div>
 
             <button class="arrow right" type="button" @click="nextMedia" :disabled="!hasMedia" aria-label="Next">
@@ -213,7 +210,7 @@
       </main>
       <div class="backdrop" :class="{ visible: isInfoVisible }" @click="closeInfo"></div>
       <button v-if="!isInfoVisible" class="show-info-btn" @click="toggleInfo">
-        Show Info
+        {{ t('ui.details') ?? "Details" }}
       </button>
       <button ref="sentinelEnd" class="sr-only" @focus="focusFirst" aria-hidden="true" />
     </div>
