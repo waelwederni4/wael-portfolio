@@ -1,38 +1,39 @@
 {
-  "title": { 
-    "en": "eHarmonia - Alarm System Control", 
-    "fr": "eHarmonia - Contrôle des Systèmes d'Alarme" 
+  "type": "mobile",
+  "title": {
+    "en": "eHarmonia — Alarm System Control",
+    "fr": "eHarmonia — Contrôle des systèmes d’alarme"
   },
   "year": 2024,
-  "period": { 
-    "en": "May 2024 - Present", 
-    "fr": "Mai 2024 - Présent" 
+  "period": {
+    "en": "May 2024 – Present",
+    "fr": "Mai 2024 – Présent"
   },
   "desc": {
-    "en": "Freelance project to modernize the Harmonia 2 & 3 alarm system control application, migrating from Xamarin.Forms to .NET MAUI while adding new features.",
-    "fr": "Projet freelance de modernisation de l'application de contrôle des systèmes d'alarme Harmonia 2 & 3, avec migration de Xamarin.Forms vers .NET MAUI et ajout de nouvelles fonctionnalités."
+    "en": "Freelance modernization of the Harmonia 2/3 alarm-control app. Migrated the mobile client from Xamarin.Forms to .NET MAUI, refreshed the architecture (MVVM + DI), and added new UX flows. Implemented secure Bluetooth Low Energy (BLE) control for pairing, commands, and status updates, and integrated real-time push notifications. Delivered Android and iOS builds, improved performance and reliability, and ensured backward compatibility with existing devices.",
+    "fr": "Mission freelance de modernisation de l’application de contrôle des alarmes Harmonia 2/3. Migration du client mobile de Xamarin.Forms vers .NET MAUI, refonte de l’architecture (MVVM + DI) et ajout de nouveaux parcours UX. Intégration d’un contrôle Bluetooth Low Energy (BLE) sécurisé pour l’appairage, les commandes et la remontée d’état, ainsi que des notifications push en temps réel. Livraison des builds Android et iOS, amélioration des performances et de la fiabilité, et maintien de la compatibilité avec les dispositifs existants."
   },
-  "stack": [".NET MAUI", "Xamarin.Forms", "Android", "iOS", "Push Notifications", "Bluetooth LE"],
+  "stack": [".NET MAUI", "Xamarin.Forms", "Android", "iOS", "Bluetooth Low Energy (BLE)", "Push Notifications (FCM/APNs)", "MVVM", "Dependency Injection"],
   "highlights": [
-    { 
-      "en": "Alarm system remote control", 
-      "fr": "Contrôle à distance du système d'alarme" 
+    {
+      "en": "Migration from Xamarin.Forms to .NET MAUI with MVVM/DI",
+      "fr": "Migration de Xamarin.Forms vers .NET MAUI avec MVVM/DI"
     },
-    { 
-      "en": "Real-time push notifications", 
-      "fr": "Notifications push en temps réel" 
+    {
+      "en": "Secure BLE pairing, commands, and live status updates",
+      "fr": "Appairage BLE sécurisé, commandes et états en temps réel"
     },
-    { 
-      "en": "Migration to .NET MAUI", 
-      "fr": "Migration vers .NET MAUI" 
+    {
+      "en": "Real-time push notifications for alarms and events",
+      "fr": "Notifications push en temps réel pour alarmes et événements"
     },
-    { 
-      "en": "Multi-platform support (Android/iOS)", 
-      "fr": "Support multiplateforme (Android/iOS)" 
+    {
+      "en": "Android/iOS delivery and store compliance",
+      "fr": "Livraison Android/iOS et conformité stores"
     },
-    { 
-      "en": "Enhanced security features", 
-      "fr": "Fonctionnalités de sécurité améliorées" 
+    {
+      "en": "Performance and reliability improvements",
+      "fr": "Améliorations de performance et de fiabilité"
     }
   ],
   "links": {
@@ -43,8 +44,8 @@
   "cover": "cover.jpg",
   "media": [
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Dashboard", "fr": "Tableau de bord" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Zones & Devices", "fr": "Zones et dispositifs" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Notifications", "fr": "Notifications" } }
   ]
 }

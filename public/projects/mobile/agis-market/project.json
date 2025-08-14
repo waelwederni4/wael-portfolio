@@ -1,48 +1,53 @@
 {
-	  "title": { 
-		"en": "AGIS Market", 
-		"fr": "AGIS Market" 
-	  },
-	  "year": 2020,
-	  "period": { 
-		"en": "Aug-Sep 2020", 
-		"fr": "Août-Sep 2020" 
-	  },
-	  "desc": {
-		"en": "During my second-year engineering summer internship at AGIS Design, I developed this Android e-commerce application for clothing sales with real-time features.",
-		"fr": "Lors de mon stage d'été de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application e-commerce Android pour la vente de vêtements avec des fonctionnalités en temps réel."
-	  },
-	  "stack": ["Java", "Android SDK", "PHP", "SQLite", "Firebase"],
-	  "highlights": [
-		{ 
-		  "en": "Biometric authentication for secure login", 
-		  "fr": "Authentification biométrique pour une connexion sécurisée" 
-		},
-		{ 
-		  "en": "Offline cart functionality with sync", 
-		  "fr": "Panier disponible hors ligne avec synchronisation" 
-		},
-		{ 
-		  "en": "Real-time order tracking system", 
-		  "fr": "Système de suivi de commandes en temps réel" 
-		},
-		{ 
-		  "en": "Clothing catalog with filters", 
-		  "fr": "Catalogue de vêtements avec filtres" 
-		}
-	  ],
-	  "cover": "cover.jpg",
-	  "media": [
-		  { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
-		{ "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-		{ "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-		{ "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
-	  ]
+  "type": "mobile",
+  "title": {
+    "en": "AGIS Market",
+    "fr": "AGIS Market"
+  },
+  "year": 2020,
+  "period": {
+    "en": "Aug–Sep 2020",
+    "fr": "Août–sept. 2020"
+  },
+  "desc": {
+    "en": "Two-month engineering internship at AGIS Design.\n Built an Android e-commerce app for apparel with biometric login, an offline cart with background sync, real-time order tracking using Firebase, and a filterable product catalog.\n Delivered end-to-end features across the Android client, a lightweight PHP backend, and local persistence with SQLite.",
+    "fr": "Stage d’ingénierie de deux mois chez AGIS Design.\n Développement d’une application e-commerce Android (prêt-à-porter) avec connexion biométrique, panier hors ligne avec synchronisation en arrière-plan, suivi de commande en temps réel via Firebase et catalogue filtrable.\n Réalisation de bout en bout : client Android, backend PHP léger et persistance locale avec SQLite."
+  },
+  "stack": ["Java", "Android SDK", "PHP", "SQLite", "Firebase"],
+  "highlights": [
+    {
+      "en": "Biometric authentication for secure login",
+      "fr": "Authentification biométrique pour une connexion sécurisée"
+    },
+    {
+      "en": "Offline cart with background synchronization",
+      "fr": "Panier hors ligne avec synchronisation en arrière-plan"
+    },
+    {
+      "en": "Real-time order status updates (Firebase)",
+      "fr": "Mises à jour des commandes en temps réel (Firebase)"
+    },
+    {
+      "en": "Filterable product catalog (by size, color, price, etc.)",
+      "fr": "Catalogue filtrable (taille, couleur, prix, etc.)"
+    },
+    {
+      "en": "End-to-end delivery: Android client, PHP backend, SQLite storage",
+      "fr": "Delivery bout-en-bout : client Android, backend PHP, stockage SQLite"
+    }
+  ],
+  "cover": "cover.jpg",
+  "media": [
+    { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Product details", "fr": "Détails produit" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Filters", "fr": "Filtres" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Cart (offline)", "fr": "Panier (hors ligne)" } },
+    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Checkout", "fr": "Paiement" } },
+    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Order tracking", "fr": "Suivi de commande" } },
+    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
+    { "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+  ]
 }

@@ -1,38 +1,38 @@
 {
-  "title": { 
-    "en": "EliseMobile - Document Management", 
-    "fr": "EliseMobile - Gestion Documentaire Mobile" 
+  "title": {
+    "en": "Elise Mobile — Document Management",
+    "fr": "Elise Mobile — Gestion documentaire"
   },
   "year": 2022,
-  "period": { 
-    "en": "May 2022 - Present", 
-    "fr": "Mai 2022 - Présent" 
+  "period": {
+    "en": "May 2022 – Present",
+    "fr": "Mai 2022 – Présent"
   },
   "desc": {
-    "en": "Mobile application providing full access to Elise document management system features, enabling remote collaboration and decision making. As technical lead at Neoledge, I was responsible for app improvements, bug fixes, client support, and implementing CI/CD pipelines for store deployments via AppCenter.",
-    "fr": "Application mobile donnant accès aux fonctionnalités du système de gestion documentaire Elise, permettant collaboration et supervision à distance. En tant que responsable technique chez Neoledge, j'ai effectué les améliorations, corrections de bugs, support client, et mis en place les pipelines CI/CD pour les déploiements sur les stores via AppCenter."
+    "en": "Mobile app for the Elise Document Management System (DMS), enabling secure remote collaboration, approvals, and decision-making. At NeoLedge, I delivered enhancements and fixes, provided client support, and implemented CI/CD with Microsoft App Center for automated store releases.",
+    "fr": "Application mobile pour le système de gestion documentaire Elise (GED), permettant la collaboration à distance, les circuits de validation et la prise de décision. Chez NeoLedge, j’ai livré des évolutions, corrigé des anomalies, assuré le support client et mis en place des chaînes CI/CD avec Microsoft App Center pour automatiser les déploiements sur les stores."
   },
-  "stack": ["Xamarin Native", "Android", "iOS", "AppCenter", "CI/CD", "SOAP"],
+  "stack": ["Xamarin Native", "Android", "iOS", "Microsoft App Center", "CI/CD", "SOAP"],
   "highlights": [
-    { 
-      "en": "Mobile document access and editing", 
-      "fr": "Accès et édition de documents mobiles" 
+    {
+      "en": "Mobile document access and editing",
+      "fr": "Accès et édition de documents sur mobile"
     },
-    { 
-      "en": "Real-time document synchronization", 
-      "fr": "Synchronisation documentaire en temps réel" 
+    {
+      "en": "Real-time document synchronization",
+      "fr": "Synchronisation documentaire en temps réel"
     },
-    { 
-      "en": "Secure mobile authentication", 
-      "fr": "Authentification mobile sécurisée" 
+    {
+      "en": "Secure mobile authentication",
+      "fr": "Authentification mobile sécurisée"
     },
-    { 
-      "en": "Automated store deployments (AppCenter)", 
-      "fr": "Déploiements automatiques (AppCenter)" 
+    {
+      "en": "Automated app-store deployments (Microsoft App Center)",
+      "fr": "Déploiements automatisés sur les stores (Microsoft App Center)"
     },
-    { 
-      "en": "Cross-platform consistency (Android/iOS)", 
-      "fr": "Cohérence multiplateforme (Android/iOS)" 
+    {
+      "en": "Cross-platform consistency (Android/iOS)",
+      "fr": "Cohérence multiplateforme (Android/iOS)"
     }
   ],
   "links": {

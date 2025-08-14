@@ -164,7 +164,7 @@
 
           <div v-if="p?.desc" class="blk">
             <h3>{{ t('ui.overview') || 'Overview' }}</h3>
-            <p class="muted">{{ l10n(p!.desc) }}</p>
+            <p class="muted preline">{{ fmtDesc(p!.desc) }}</p>
           </div>
 
           <div v-if="(p?.highlights?.length || 0) > 0" class="blk">
@@ -235,9 +235,17 @@ const { locale, t } = ((): any => { try { return useI18n() } catch { return { lo
 function l10n(val?: Localized, fallback = ''): string {
   if (!val) return fallback
   if (typeof val === 'string') return val
-  const lang = String(locale.value || 'en').slice(0,2)
+  const lang = String(locale.value || 'en').slice(0, 2)
   return (val as any)[lang] ?? (val as any).en ?? (val as any).fr ?? fallback
 }
+
+function fmtDesc(val?: Localized, fallback = ''): string {
+  return l10n(val, fallback)
+    .replace(/;\s*/g, '\n')  // split on semicolons
+    .replace(/\n{2,}/g, '\n') // collapse multiple newlines
+    .trim()
+}
+
 function l10nList(val?: LocalizedList): string[] {
   if (!val) return []
   if (Array.isArray(val)) return val
@@ -461,6 +469,8 @@ onBeforeUnmount(() => {
   white-space: nowrap;
   border: 0;
 }
+
+.preline { white-space: pre-line; } 
 
 .pv-overlay {
   position: fixed;

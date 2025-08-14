@@ -1,50 +1,66 @@
 {
-  "title": { 
-    "en": "Cough Diagnostic System", 
-    "fr": "Système de Diagnostic de Toux" 
+  "type": "mobile",
+  "title": {
+    "en": "Cough Diagnostic System",
+    "fr": "Système de diagnostic de toux"
   },
   "year": 2020,
-  "period": { 
-    "en": "Mar 2020", 
-    "fr": "Mars 2020" 
+  "period": {
+    "en": "Mar 2020",
+    "fr": "Mars 2020"
   },
   "desc": {
-    "en": "Engineering school project developing an Android application to analyze cough sounds, store data in Firebase, and detect potential COVID-19 infection patterns using Python backend processing.",
-    "fr": "Projet d'école d'ingénieur développant une application Android pour analyser les sons de toux, stocker les données dans Firebase et détecter des motifs d'infection potentielle au COVID-19 via un backend Python."
+    "en": "Engineering project: Android app to record cough audio and upload anonymized samples to a Python backend for signal analysis and risk scoring.\n Pipeline includes quality checks, segmentation, feature extraction, and a binary classifier that outputs a COVID-19 risk indicator for research purposes.\n Research prototype only — not a medical device, not for clinical diagnosis.",
+    "fr": "Projet d’ingénierie : application Android pour enregistrer des toux et envoyer des échantillons anonymisés vers un backend Python pour analyse du signal et estimation de risque.\n Le pipeline comprend contrôles qualité, segmentation, extraction de caractéristiques et un classifieur binaire produisant un indicateur de risque COVID-19 à des fins de recherche.\n Prototype de recherche uniquement — non médical, non destiné au diagnostic clinique."
   },
-  "stack": ["Java", "Android", "Firebase", "Python", "Machine Learning", "Audio Processing"],
+  "stack": [
+    "Java",
+    "Android SDK",
+    "Firebase Auth",
+    "Firebase Firestore",
+    "Firebase Storage",
+    "Python (Flask)",
+    "Librosa (audio processing)",
+    "scikit-learn"
+  ],
   "highlights": [
-    { 
-      "en": "Cough sound analysis and recording", 
-      "fr": "Analyse et enregistrement des sons de toux" 
+    {
+      "en": "Cough recording with quality gates and consent flow",
+      "fr": "Enregistrement des toux avec contrôles qualité et consentement"
     },
-    { 
-      "en": "COVID-19 infection probability detection", 
-      "fr": "Détection de probabilité d'infection COVID-19" 
+    {
+      "en": "Segmentation & denoising (VAD, band-pass filtering)",
+      "fr": "Segmentation & débruitage (VAD, filtre passe-bande)"
     },
-    { 
-      "en": "Secure health data storage in Firebase", 
-      "fr": "Stockage sécurisé des données médicales dans Firebase" 
+    {
+      "en": "Feature extraction (MFCCs, spectral roll-off, ZCR)",
+      "fr": "Extraction de caractéristiques (MFCC, roll-off spectral, ZCR)"
     },
-    { 
-      "en": "Historical data analysis and trends", 
-      "fr": "Analyse des données historiques et tendances" 
+    {
+      "en": "Backend risk scoring via REST API (binary classifier)",
+      "fr": "Estimation de risque côté backend via API REST (classifieur binaire)"
+    },
+    {
+      "en": "Secure storage & anonymization (tokenized IDs)",
+      "fr": "Stockage sécurisé & anonymisation (IDs tokenisés)"
+    },
+    {
+      "en": "Historical trends & follow-up reminders",
+      "fr": "Tendances historiques & rappels de suivi"
     }
   ],
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
-    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-11.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-12.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    {
+      "type": "video",
+      "src": "demo.mp4",
+      "poster": "cover.jpg",
+      "device": "phone",
+      "caption": { "en": "Recording & analysis flow", "fr": "Flux d’enregistrement & analyse" }
+    },
+    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding & consent", "fr": "Onboarding & consentement" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Recorder", "fr": "Enregistreur" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Spectrogram & features", "fr": "Spectrogramme & features" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Risk result & history", "fr": "Résultat de risque & historique" } }
   ]
 }

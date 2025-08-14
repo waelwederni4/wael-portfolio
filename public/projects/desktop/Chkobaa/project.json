@@ -1,35 +1,50 @@
 {
-	"type":"desktop",
-  "title": { 
-    "en": "Chkoba Card Game", 
-    "fr": "Jeu de Cartes Chkoba" 
+  "type": "desktop",
+  "title": {
+    "en": "Chkoba Card Game",
+    "fr": "Jeu de cartes Chkoba"
   },
   "year": 2021,
-  "period": { 
-    "en": "Feb 2021", 
-    "fr": "Fév 2021" 
+  "period": {
+    "en": "February 2021",
+    "fr": "Février 2021"
   },
   "desc": {
-    "en": "Second-year engineering project: A multiplayer desktop application for playing Chkoba, a traditional Tunisian card game, over a local network.",
-    "fr": "Projet de deuxième année d'ingénierie : Application desktop multijoueur pour jouer au Chkoba, un jeu de cartes tunisien traditionnel, en réseau local."
+    "en": "Second-year engineering project: multiplayer desktop app for the traditional Tunisian card game Chkoba over a local network.\n Implemented a client–server architecture with TCP sockets, a rules engine covering legal moves and scoring, real-time game-state synchronization, and a Swing UI. MySQL was used for persistence (players, matches, scores).",
+    "fr": "Projet de deuxième année d’ingénierie : application de bureau multijoueur du jeu de cartes tunisien Chkoba en réseau local.\n Mise en place d’une architecture client-serveur via sockets TCP, d’un moteur de règles (coups légaux et comptage des points), de la synchronisation temps réel de l’état de jeu et d’une interface Swing. MySQL a été utilisé pour la persistance (joueurs, parties, scores)."
   },
-  "stack": ["Java Swing", "Socket Programming", "MySQL"],
+  "stack": ["Java", "Java Swing", "TCP Sockets", "MySQL", "OOP"],
   "highlights": [
-    { 
-      "en": "Real-time multiplayer gameplay", 
-      "fr": "Jeu multijoueur en temps réel" 
+    {
+      "en": "Client–server architecture with TCP sockets",
+      "fr": "Architecture client-serveur avec sockets TCP"
     },
-    { 
-      "en": "Local network connectivity", 
-      "fr": "Connexion via réseau local" 
+    {
+      "en": "Real-time multiplayer state synchronization",
+      "fr": "Synchronisation temps réel pour le multijoueur"
     },
-    { 
-      "en": "Authentic Chkoba rules implementation", 
-      "fr": "Implémentation des règles authentiques du Chkoba" 
+    {
+      "en": "Chkoba rules engine (legal moves & scoring)",
+      "fr": "Moteur de règles Chkoba (coups légaux & score)"
+    },
+    {
+      "en": "Desktop UI built with Java Swing",
+      "fr": "Interface de bureau réalisée avec Java Swing"
+    },
+    {
+      "en": "MySQL-backed persistence (players, matches, scores)",
+      "fr": "Persistance MySQL (joueurs, parties, scores)"
     }
   ],
   "cover": "cover.jpg",
   "media": [
-    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Onboarding", "fr": "Onboarding" } }
+    {
+      "type": "img",
+      "src": "screen-01.jpg",
+      "w": 1920,
+      "h": 1080,
+      "device": "desktop",
+      "caption": { "en": "Game Table (Desktop UI)", "fr": "Table de jeu (UI Desktop)" }
+    }
   ]
 }

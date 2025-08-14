@@ -1,50 +1,59 @@
 {
-  "title": { 
-    "en": "VTC Smart - Driver Management", 
-    "fr": "VTC Smart - Gestion des Chauffeurs" 
+  "type": "mobile",
+  "title": {
+    "en": "VTC Smart — Driver Management",
+    "fr": "VTC Smart — Gestion des chauffeurs"
   },
   "year": 2023,
-  "period": { 
-    "en": "May 2023", 
-    "fr": "Mai 2023" 
+  "period": {
+    "en": "May 2023",
+    "fr": "Mai 2023"
   },
   "desc": {
-    "en": "Freelance project developing a driver management application for transportation agencies with real-time mission tracking and ride management.",
-    "fr": "Projet freelance développant une application de gestion pour chauffeurs VTC permettant le suivi en temps réel des missions et la gestion des courses."
+    "en": "Freelance build of a driver management app for transportation agencies. Provides real-time mission dispatch and live GPS tracking, in-app navigation with traffic-aware routing/ETA, and a full ride lifecycle (accept, arrive, start, complete). Implemented secure authentication, instant notifications via FCM, offline-ready data caching, and performance/earnings views for drivers.",
+    "fr": "Réalisation freelance d’une application de gestion chauffeurs pour agences de transport. Offre un dispatch des missions en temps réel avec suivi GPS, une navigation intégrée tenant compte du trafic/ETA et un cycle de course complet (accepter, arriver, démarrer, terminer). Mise en place d’une authentification sécurisée, de notifications instantanées via FCM, d’un cache de données utilisable hors ligne et de vues performance/revenus pour les chauffeurs."
   },
-  "stack": ["Java", "Android", "Firebase", "Firebase Cloud Messaging", "Google Maps API", "Geolocation"],
+  "stack": [
+    "Java",
+    "Android SDK",
+    "Firebase Auth",
+    "Firebase Cloud Messaging (FCM)",
+    "Firebase Firestore",
+    "Google Maps SDK",
+    "Geolocation"
+  ],
   "highlights": [
-    { 
-      "en": "Real-time mission assignment and tracking", 
-      "fr": "Assignation et suivi des missions en temps réel" 
+    {
+      "en": "Real-time mission assignment & live tracking (FCM + Maps)",
+      "fr": "Assignation des missions & suivi en direct (FCM + Maps)"
     },
-    { 
-      "en": "Optimized navigation with traffic data", 
-      "fr": "Navigation optimisée avec données trafic" 
+    {
+      "en": "In-app navigation with traffic-aware routing and ETA",
+      "fr": "Navigation intégrée avec itinéraires et ETA sensibles au trafic"
     },
-    { 
-      "en": "Driver performance analytics", 
-      "fr": "Analytiques de performance des chauffeurs" 
+    {
+      "en": "End-to-end ride lifecycle with status transitions",
+      "fr": "Cycle de course complet avec transitions de statut"
     },
-    { 
-      "en": "Instant notifications (FCM)", 
-      "fr": "Notifications instantanées (FCM)" 
+    {
+      "en": "Offline-ready data caching and background sync",
+      "fr": "Cache de données hors ligne et synchronisation en arrière-plan"
     },
-    { 
-      "en": "Secure authentication system", 
-      "fr": "Système d'authentification sécurisé" 
+    {
+      "en": "Driver analytics: trips, ratings, earnings",
+      "fr": "Analytique chauffeur : courses, notes, revenus"
+    },
+    {
+      "en": "Secure authentication and session management",
+      "fr": "Authentification sécurisée et gestion de session"
     }
   ],
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Live Map & Dispatch", "fr": "Carte & dispatch en direct" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Mission Details", "fr": "Détails de mission" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Navigation & ETA", "fr": "Navigation & ETA" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Earnings & KPIs", "fr": "Revenus & indicateurs" } }
   ]
 }

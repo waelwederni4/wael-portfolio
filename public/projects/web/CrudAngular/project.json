@@ -3,7 +3,6 @@
   "year": 2021,
   "desc": { "en": "Admin CRUD with Angular & Node.", "fr": "CRUD admin avec Angular & Node." },
   "stack": ["Angular", "Node.js"],
-  "links": { "demo": "", "code": "" },
   "cover": "cover.jpg",
     "media": [
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },

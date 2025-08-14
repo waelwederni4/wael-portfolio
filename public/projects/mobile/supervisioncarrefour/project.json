@@ -1,50 +1,46 @@
 {
-  "title": { 
-    "en": "Smart Traffic Light Control", 
-    "fr": "Contrôle Intelligent des Feux de Circulation" 
+  "type": "mobile",
+  "title": {
+    "en": "Smart Traffic Light Control",
+    "fr": "Contrôle intelligent des feux de circulation"
   },
   "year": 2019,
-  "period": { 
-    "en": "Jan-Mar 2019", 
-    "fr": "Janv-Mars 2019" 
+  "period": {
+    "en": "Jan–Mar 2019",
+    "fr": "Janv.–mars 2019"
   },
   "desc": {
-    "en": "Bachelor's final project in embedded systems at SOTICA: Developed an Android Java application for municipalities/police/emergency services to override traffic lights and modify traffic light cycle priorities.",
-    "fr": "Projet de fin de licence en systèmes embarqués chez SOTICA : Développement d'une application Android Java dédiée aux municipalités/police/services d'urgence pour forcer un feu rouge et modifier la priorité des cycles de feux de circulation."
+    "en": "Embedded-systems bachelor capstone at SOTICA. Built an Android (Java) app for municipalities, police, and emergency services to request right-of-way at intersections: authenticated red-light override and real-time phase/cycle adjustment. Implemented secure authentication, a PHP/SQLite backend, and IoT integration with traffic-light controllers.",
+    "fr": "Projet de fin de licence en systèmes embarqués chez SOTICA. Développement d’une application Android (Java) pour municipalités, police et services de secours afin de demander la priorité aux carrefours : forçage de feu et ajustement en temps réel des phases/cycles. Mise en place d’une authentification sécurisée, d’un backend PHP/SQLite et d’une intégration IoT avec les contrôleurs de feux."
   },
   "stack": ["Java", "Android", "PHP", "SQLite", "IoT"],
   "highlights": [
-    { 
-      "en": "Emergency traffic light override", 
-      "fr": "Contrôle prioritaire des feux de circulation" 
+    {
+      "en": "Emergency right-of-way override for intersections",
+      "fr": "Priorité d’intervention aux carrefours"
     },
-    { 
-      "en": "Real-time traffic light cycle adjustment", 
-      "fr": "Ajustement en temps réel des cycles de feux" 
+    {
+      "en": "Real-time signal phase and cycle tuning",
+      "fr": "Ajustement en temps réel des phases et cycles"
     },
-    { 
-      "en": "Secure authentication for authorized personnel", 
-      "fr": "Authentification sécurisée pour personnel autorisé" 
+    {
+      "en": "Secure, role-based authentication",
+      "fr": "Authentification sécurisée avec rôles"
     },
-    { 
-      "en": "Traffic flow optimization algorithms", 
-      "fr": "Algorithmes d'optimisation du flux trafic" 
+    {
+      "en": "Traffic-flow optimization algorithms",
+      "fr": "Algorithmes d’optimisation du flux de trafic"
     }
   ],
-  "links": {	
-    "demo":"https://youtu.be/uwny6UXtRWg"
+  "links": {
+    "demo": "https://youtu.be/uwny6UXtRWg"
   },
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
+    { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Override request demo", "fr": "Démo de demande de priorité" } },
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Intersection control", "fr": "Contrôle du carrefour" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Cycle configuration", "fr": "Configuration des cycles" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Status & logs", "fr": "Statuts et journaux" } }
   ]
 }

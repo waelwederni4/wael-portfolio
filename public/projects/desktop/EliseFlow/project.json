@@ -1,38 +1,38 @@
 {
-  "title": { 
-    "en": "Elise Flow – Secure Electronic Signature", 
-    "fr": "Elise Flow – Signature Électronique Sécurisée" 
+  "title": {
+    "en": "Elise Flow — Secure Electronic Signature",
+    "fr": "Elise Flow — Signature électronique sécurisée"
   },
   "year": 2023,
-  "period": { 
-    "en": "Jan 2023 – Present", 
-    "fr": "Janv. 2023 – Présent" 
+  "period": {
+    "en": "January 2023 – Present",
+    "fr": "Janvier 2023 – Présent"
   },
   "desc": {
-    "en": "Developed and maintained a UWP application for secure electronic signing of PDF documents, leveraging the iText library. Implemented robust workflow automation, PDF processing, and compliance features to support multi-user collaboration. Responsible for feature enhancements, client technical support, incident resolution, and backend patch deployments.",
-    "fr": "Développement et maintenance d’une application UWP de signature électronique sécurisée de documents PDF, utilisant la bibliothèque iText. Mise en place d’automatisations de workflows, traitement PDF et fonctionnalités de conformité pour la collaboration multi-utilisateurs. Responsable des évolutions, du support technique client, de la résolution d’incidents et du déploiement de correctifs backend."
+    "en": "Application owner for Elise Flow (secure e-signature).\n Led the roadmap and delivery\n designed and maintained the UWP app with iText\n implemented end-to-end signing workflows (pre-validation, preparation, signing, verification)\n enforced security and compliance controls (RBAC, audit trails, tamper-evident PDFs)\n built reusable PDF services (form-field extraction, stamping/watermarking, certification, incremental saves)\n integrated SOAP/REST backends\n established CI/CD and release management\n handled L2/L3 support and incident response\n produced documentation, trained internal teams, and tracked quality KPIs (crash-free rate, lead time, MTTR).",
+    "fr": "Responsable applicatif d’Elise Flow (signature électronique sécurisée).\n Pilotage de la roadmap et des livraisons \n conception et maintenance de l’application UWP avec iText \n mise en œuvre de workflows de signature de bout en bout (pré-validation, préparation, signature, vérification) \n mise en place de contrôles de sécurité et de conformité (RBAC, traces d’audit, PDF à altération détectable) \n développement de services PDF réutilisables (extraction de champs, tampons/filigranes, certification, enregistrements incrémentaux) \n intégration avec des backends SOAP/REST \n mise en place du CI/CD et gestion des releases \n support N2/N3 et gestion des incidents \n documentation, formation des équipes internes et suivi des KPIs qualité (crash-free rate, lead time, MTTR)."
   },
-  "stack": ["UWP", "WPF", "ASP.NET Core", "SOAP", "iText", "PDF Processing"],
+  "stack": ["UWP", "WPF", "ASP.NET Core", "SOAP", "iText", "PDF Processing", "CI/CD"],
   "highlights": [
-    { 
-      "en": "End-to-end secure electronic document signing with compliance features", 
-      "fr": "Signature électronique sécurisée de bout en bout avec fonctionnalités de conformité" 
+    {
+      "en": "Application ownership: roadmap, delivery, release management",
+      "fr": "Responsabilité applicative : roadmap, livraisons, gestion des releases"
     },
-    { 
-      "en": "Advanced PDF document processing and automation", 
-      "fr": "Traitement et automatisation avancés des documents PDF" 
+    {
+      "en": "Secure e-signature workflows with RBAC and audit trails",
+      "fr": "Workflows de signature sécurisés avec RBAC et traces d’audit"
     },
-    { 
-      "en": "Customizable document workflow management", 
-      "fr": "Gestion personnalisable des workflows documentaires" 
+    {
+      "en": "Reusable PDF services: form fields, stamping, certification",
+      "fr": "Services PDF réutilisables : champs, tampons, certification"
     },
-    { 
-      "en": "Real-time multi-user collaboration", 
-      "fr": "Collaboration multi-utilisateurs en temps réel" 
+    {
+      "en": "Integration with SOAP/REST backends and automation via CI/CD",
+      "fr": "Intégration aux backends SOAP/REST et automatisation via CI/CD"
     },
-    { 
-      "en": "Comprehensive audit trails and version control", 
-      "fr": "Historique complet des modifications et contrôle de version" 
+    {
+      "en": "L2/L3 support, incident response, and KPI tracking (MTTR, crash-free)",
+      "fr": "Support N2/N3, gestion d’incidents et suivi des KPIs (MTTR, crash-free)"
     }
   ],
   "links": {
@@ -40,7 +40,21 @@
   },
   "cover": "cover.jpg",
   "media": [
-    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "User Onboarding Flow", "fr": "Flux d’Onboarding Utilisateur" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Document Workflow Dashboard", "fr": "Tableau de Bord du Workflow Documentaire" } }
+    {
+      "type": "img",
+      "src": "screen-01.jpg",
+      "w": 1920,
+      "h": 1080,
+      "device": "desktop",
+      "caption": { "en": "User Onboarding Flow", "fr": "Onboarding utilisateur" }
+    },
+    {
+      "type": "img",
+      "src": "screen-02.jpg",
+      "w": 1920,
+      "h": 1080,
+      "device": "desktop",
+      "caption": { "en": "Document Workflow Dashboard", "fr": "Tableau de bord des workflows" }
+    }
   ]
 }

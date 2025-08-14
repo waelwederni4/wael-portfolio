@@ -1,38 +1,43 @@
 {
-  "title": { 
-    "en": "Elise Mobile - Document Management", 
-    "fr": "Elise Mobile - Gestion Électronique de Documents" 
+  "type": "mobile",
+  "title": {
+    "en": "Elise Mobile — Document Management",
+    "fr": "Elise Mobile — Gestion électronique de documents"
   },
   "year": 2022,
-  "period": { 
-    "en": "Jan-May 2022", 
-    "fr": "Janv-Mai 2022" 
+  "period": {
+    "en": "Jan–May 2022",
+    "fr": "Janv.–mai 2022"
   },
   "desc": {
-    "en": "Engineering graduation project at Neoledge: Rewrote the frontend application for an Electronic Document Management System (EDMS) using Flutter, featuring document scanning, user profiles, and dashboard analytics.",
-    "fr": "Projet de fin d'études d'ingénierie chez Neoledge : Réécriture de l'application frontend d'une plateforme GED (Gestion Électronique de Documents) en Flutter permettant d'ajouter/numériser des documents avec OpenCV, gérer des profils utilisateurs et manipuler des tableaux de bord."
+    "en": "Engineering capstone at NeoLedge: rebuilt the mobile client for an Electronic Document Management System (EDMS) in Flutter. Delivered camera-based document capture with OpenCV (edge detection, perspective correction, de-noising), multi-page PDF generation, and secure upload to an ASP.NET Core REST API. Added user profiles with role-based access and interactive dashboards for queues and KPIs.",
+    "fr": "Projet de fin d’études chez NeoLedge : réécriture du client mobile d’un système de GED en Flutter. Mise en place de la capture/numérisation avec OpenCV (détection de contours, correction de perspective, réduction de bruit), génération de PDF multi-pages et envoi sécurisé vers une API REST ASP.NET Core. Ajout des profils utilisateurs avec gestion des rôles et tableaux de bord interactifs (files, indicateurs)."
   },
-  "stack": ["Flutter", "Dart", "ASP.NET Core", "REST API", "OpenCV"],
+  "stack": ["Flutter", "Dart", "ASP.NET Core", "REST API", "OpenCV (image processing)"],
   "highlights": [
-    { 
-      "en": "Document scanning and processing with OpenCV", 
-      "fr": "Numérisation et traitement de documents avec OpenCV" 
+    {
+      "en": "Camera-based scanning with OpenCV (edges, de-skew, noise reduction)",
+      "fr": "Numérisation via caméra avec OpenCV (contours, redressement, réduction de bruit)"
     },
-    { 
-      "en": "User profile and access management", 
-      "fr": "Gestion des profils utilisateurs et des accès" 
+    {
+      "en": "Multi-page PDF generation and export",
+      "fr": "Génération et export PDF multi-pages"
     },
-    { 
-      "en": "Interactive document dashboards", 
-      "fr": "Tableaux de bord documentaires interactifs" 
+    {
+      "en": "Role-based access and secure authentication",
+      "fr": "Gestion des rôles et authentification sécurisée"
     },
-    { 
-      "en": "Document workflow management", 
-      "fr": "Gestion des flux documentaires" 
+    {
+      "en": "Interactive dashboards (queues, KPIs, drill-down)",
+      "fr": "Tableaux de bord interactifs (files, KPI, exploration)"
     },
-    { 
-      "en": "Cross-platform mobile application", 
-      "fr": "Application mobile multiplateforme" 
+    {
+      "en": "Workflow actions (route, approve, comment)",
+      "fr": "Actions de workflow (routage, validation, commentaires)"
+    },
+    {
+      "en": "Cross-platform delivery (Android/iOS)",
+      "fr": "Livraison multiplateforme (Android/iOS)"
     }
   ],
   "links": {
@@ -40,13 +45,19 @@
   },
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
+    {
+      "type": "video",
+      "src": "demo.mp4",
+      "poster": "cover.jpg",
+      "device": "phone",
+      "caption": { "en": "Document capture demo", "fr": "Démo de numérisation" }
+    },
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Scanner & crop", "fr": "Scanner & recadrage" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "PDF preview", "fr": "Aperçu PDF" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Dashboard (KPIs)", "fr": "Tableau de bord (KPI)" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "User profile", "fr": "Profil utilisateur" } },
+    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Document list", "fr": "Liste des documents" } },
+    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Workflow actions", "fr": "Actions de workflow" } }
   ]
 }

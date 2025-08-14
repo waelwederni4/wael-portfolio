@@ -1,53 +1,58 @@
 {
-  "title": { 
-    "en": "AGIS Embedded Sales", 
-    "fr": "AGIS Vente Embarqué" 
+  "type": "mobile",
+  "title": {
+    "en": "AGIS Embedded Sales",
+    "fr": "AGIS Vente embarquée"
   },
   "year": 2020,
-  "period": { 
-    "en": "Sep-Oct 2020", 
-    "fr": "Sep-Oct 2020" 
+  "period": {
+    "en": "Sep–Oct 2020",
+    "fr": "sept.–oct. 2020"
   },
   "desc": {
-    "en": "During my second-year engineering internship at AGIS Design, I developed this Android application for inventory and product management with offline capabilities.",
-    "fr": "Lors de mon stage de deuxième année d'ingénierie chez AGIS Design, j'ai développé cette application Android de gestion de stock et produits avec fonctionnalités hors ligne."
+    "en": "Engineering internship (2 months) at AGIS Design.\n Built an Android app for field inventory and product management with an offline-first architecture: local SQLite storage, background sync to Firebase/REST, and resilient connectivity handling.\n Implemented barcode-based item lookup, stock adjustments (in/out and counts), a filterable product catalog, and real-time stock updates when online.",
+    "fr": "Stage d’ingénierie (2 mois) chez AGIS Design.\n Développement d’une application Android de gestion de stock et de produits pour équipes terrain, basée sur une architecture offline-first : stockage local SQLite, synchronisation en arrière-plan vers Firebase/REST et gestion robuste de la connectivité.\n Implémentation du scan code-barres, des mouvements de stock (entrée/sortie et inventaires), d’un catalogue filtrable et de mises à jour de stock en temps réel en ligne."
   },
-  "stack": ["Java", "Android SDK", "Firebase", "SQLite", "REST API"],
+  "stack": ["Java", "Android SDK", "SQLite", "Firebase", "REST API"],
   "highlights": [
-    { 
-      "en": "Inventory management system", 
-      "fr": "Système de gestion de stock" 
+    {
+      "en": "Offline-first architecture with background sync",
+      "fr": "Architecture offline-first avec synchronisation en arrière-plan"
     },
-    { 
-      "en": "Barcode scanning for product identification", 
-      "fr": "Scan de code-barres pour identification produit" 
+    {
+      "en": "Barcode scanning for fast product lookup",
+      "fr": "Scan de codes-barres pour recherche produit rapide"
     },
-    { 
-      "en": "Offline data synchronization", 
-      "fr": "Synchronisation des données hors ligne" 
+    {
+      "en": "Stock operations: adjustments and inventory counts",
+      "fr": "Opérations de stock : ajustements et inventaires"
     },
-    { 
-      "en": "Real-time stock updates", 
-      "fr": "Mises à jour de stock en temps réel" 
+    {
+      "en": "Real-time stock updates when connected (Firebase)",
+      "fr": "Mises à jour de stock en temps réel en ligne (Firebase)"
+    },
+    {
+      "en": "Integration with back-office via REST API",
+      "fr": "Intégration au back-office via API REST"
     }
   ],
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
+    { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Inventory workflow", "fr": "Flux d’inventaire" } },
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-11.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-12.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-13.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-14.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-15.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Product list", "fr": "Liste des produits" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Barcode scanning", "fr": "Scan code-barres" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Stock adjustment", "fr": "Ajustement de stock" } },
+    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Inventory count", "fr": "Inventaire" } },
+    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Sync status", "fr": "Statut de synchro" } },
+    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Product details", "fr": "Détails produit" } },
+    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Filters", "fr": "Filtres" } },
+    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } },
+    { "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } },
+    { "type": "img", "src": "screen-11.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } },
+    { "type": "img", "src": "screen-12.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } },
+    { "type": "img", "src": "screen-13.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } },
+    { "type": "img", "src": "screen-14.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } },
+    { "type": "img", "src": "screen-15.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Products", "fr": "Produits" } }
   ]
 }

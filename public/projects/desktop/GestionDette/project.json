@@ -1,45 +1,47 @@
 {
-	"type":"desktop",
-  "title": { 
-    "en": "Debt Management System", 
-    "fr": "Système de Gestion de Dettes" 
+  "type": "desktop",
+  "title": {
+    "en": "Debt Management System",
+    "fr": "Système de gestion de dettes"
   },
   "year": 2021,
-  "period": { 
-    "en": "May 2021", 
-    "fr": "Mai 2021" 
+  "period": {
+    "en": "May 2021",
+    "fr": "Mai 2021"
   },
   "desc": {
-    "en": "Second-year engineering school project: Desktop application for store owners to track customer debts and transactions.",
-    "fr": "Projet de deuxième année d'école d'ingénieur : Application desktop pour gérer les dettes clients et les transactions d'un magasin."
+    "en": "Second-year engineering project: desktop ledger application for shop owners to track customer balances, sales, and repayments.\n Features include customer master data, a transaction journal with running balances, due-date reminders, searchable histories, summaries of outstanding amounts, and CSV export with printable statements.",
+    "fr": "Projet de deuxième année d’ingénierie : application de bureau de tenue de comptes pour suivre les soldes clients, ventes et remboursements.\n Fonctionnalités : fiches clients, journal des opérations avec soldes cumulés, rappels d’échéance, recherche dans l’historique, synthèses des montants en souffrance et export CSV avec relevés imprimables."
   },
-  "stack": ["Java Swing", "SQL"],
+  "stack": ["Java", "Java Swing", "JDBC", "SQL (SQLite/MySQL)"],
   "highlights": [
-    { 
-      "en": "Customer debt tracking system", 
-      "fr": "Système de suivi des dettes clients" 
+    {
+      "en": "Customer ledger with running balance",
+      "fr": "Grand livre client avec solde cumulé"
     },
-    { 
-      "en": "Store management application", 
-      "fr": "Application de gestion de magasin" 
+    {
+      "en": "Transaction journal (charges, payments, adjustments)",
+      "fr": "Journal des opérations (ventes, paiements, ajustements)"
+    },
+    {
+      "en": "Due-date reminders and outstanding summaries",
+      "fr": "Rappels d’échéance et synthèses des impayés"
+    },
+    {
+      "en": "Search, filters, and monthly reports",
+      "fr": "Recherche, filtres et rapports mensuels"
+    },
+    {
+      "en": "CSV export and printable statements",
+      "fr": "Export CSV et relevés imprimables"
     }
   ],
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "desktop", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
-    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-09.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-10.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-11.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-12.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-13.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-14.jpg", "w": 1170, "h": 2532, "device": "desktop", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "desktop", "caption": { "en": "Walkthrough (ledger & reports)", "fr": "Parcours (grand livre & rapports)" } },
+    { "type": "img", "src": "screen-01.jpg", "w": 1920, "h": 1080, "device": "desktop", "caption": { "en": "Customer list", "fr": "Liste des clients" } },
+    { "type": "img", "src": "screen-02.jpg", "w": 1920, "h": 1080, "device": "desktop", "caption": { "en": "New transaction", "fr": "Nouvelle opération" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1920, "h": 1080, "device": "desktop", "caption": { "en": "Ledger & running balance", "fr": "Grand livre & solde cumulé" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1920, "h": 1080, "device": "desktop", "caption": { "en": "Reports & export", "fr": "Rapports & export" } }
   ]
 }

@@ -1,49 +1,92 @@
 {
-  "title": { 
-    "en": "Somatra Cars - Vehicle Marketplace", 
-    "fr": "Somatra Cars - Plateforme Automobile" 
+  "type": "mobile",
+  "title": {
+    "en": "Somatra Cars — Vehicle Marketplace",
+    "fr": "Somatra Cars — Plateforme automobile"
   },
   "year": 2024,
-  "period": { 
-    "en": "Aug 2024", 
-    "fr": "Août 2024" 
+  "period": {
+    "en": "Aug 2024",
+    "fr": "Août 2024"
   },
   "desc": {
-    "en": "Freelance project developing a car gallery application to facilitate connections between dealerships and potential buyers.",
-    "fr": "Projet freelance développant une application galerie de voitures pour faciliter les contacts entre concessionnaires et acheteurs potentiels."
+    "en": "Freelance build of a cross-platform marketplace for dealerships and buyers. Dealers publish vehicle listings with rich media; buyers browse an interactive gallery with faceted filters and comparisons, message dealers directly, and save favorites/searches. Backend services in ASP.NET Core with PostgreSQL expose REST APIs for listings, search, messaging, and user management.",
+    "fr": "Réalisation freelance d’une marketplace reliant concessionnaires et acheteurs. Les concessionnaires publient des annonces avec médias enrichis ; les acheteurs naviguent dans une galerie interactive avec filtres et comparaisons, contactent directement les vendeurs et enregistrent favoris/recherches. Des services backend en ASP.NET Core avec PostgreSQL exposent des API REST pour les annonces, la recherche, la messagerie et la gestion des utilisateurs."
   },
-  "stack": ["Flutter", "Dart", "ASP.NET Core", "PostgreSQL"],
+  "stack": ["Flutter", "Dart", "ASP.NET Core", "REST API", "PostgreSQL"],
   "highlights": [
-    { 
-      "en": "Interactive car gallery with filters", 
-      "fr": "Galerie de voitures interactive avec filtres" 
+    {
+      "en": "Interactive gallery with faceted filters & sorting",
+      "fr": "Galerie interactive avec filtres à facettes & tri"
     },
-    { 
-      "en": "Direct dealer-buyer messaging", 
-      "fr": "Messagerie directe concessionnaire-acheteur" 
+    {
+      "en": "Dealer–buyer in-app messaging",
+      "fr": "Messagerie in-app concessionnaire–acheteur"
     },
-    { 
-      "en": "Advanced search and comparisons", 
-      "fr": "Recherche avancée et comparaisons" 
+    {
+      "en": "Vehicle comparison (specs & pricing)",
+      "fr": "Comparaison de véhicules (fiches & prix)"
     },
-    { 
-      "en": "Favorites and saved searches", 
-      "fr": "Favoris et recherches sauvegardées" 
+    {
+      "en": "Favorites and saved searches",
+      "fr": "Favoris et recherches enregistrées"
+    },
+    {
+      "en": "Listing management (photos, specs, availability)",
+      "fr": "Gestion des annonces (photos, fiches, disponibilité)"
     }
   ],
   "links": {
-    "code": "https://github.com/you/agis-market"
+    "code": "https://github.com/you/somatra-cars"
   },
   "cover": "cover.jpg",
   "media": [
-      { "type": "video", "src": "demo.mp4", "poster": "cover.jpg", "device": "phone", "caption": { "en": "Purchase flow", "fr": "Parcours d’achat" } },
-    { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-06.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-07.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-08.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }	
+    {
+      "type": "video",
+      "src": "demo.mp4",
+      "poster": "cover.jpg",
+      "device": "phone",
+      "caption": { "en": "Browse & contact flow", "fr": "Parcours navigation & contact" }
+    },
+    {
+      "type": "img",
+      "src": "screen-01.jpg",
+      "w": 1170,
+      "h": 2532,
+      "device": "phone",
+      "caption": { "en": "Onboarding", "fr": "Onboarding" }
+    },
+    {
+      "type": "img",
+      "src": "screen-02.jpg",
+      "w": 1170,
+      "h": 2532,
+      "device": "phone",
+      "caption": { "en": "Gallery & filters", "fr": "Galerie & filtres" }
+    },
+    {
+      "type": "img",
+      "src": "screen-03.jpg",
+      "w": 1170,
+      "h": 2532,
+      "device": "phone",
+      "caption": { "en": "Vehicle details", "fr": "Fiche véhicule" }
+    },
+    {
+      "type": "img",
+      "src": "screen-04.jpg",
+      "w": 1170,
+      "h": 2532,
+      "device": "phone",
+      "caption": { "en": "Messaging", "fr": "Messagerie" }
+    },
+    {
+      "type": "img",
+      "src": "screen-05.jpg",
+      "w": 1170,
+      "h": 2532,
+      "device": "phone",
+      "caption": { "en": "Saved searches & favorites", "fr": "Recherches & favoris" }
+    }
   ]
 }

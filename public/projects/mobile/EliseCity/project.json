@@ -1,7 +1,8 @@
 {
+  "type": "mobile",
   "title": {
-    "en": "Elise City – Citizen Relationship & Document Access",
-    "fr": "Elise City – Relation Citoyenne & Gestion Documentaire"
+    "en": "Elise City – Citizen Engagement & Document Access",
+    "fr": "Elise City – Relation Citoyenne & Accès Documentaire"
   },
   "year": 2022,
   "period": {
@@ -9,14 +10,14 @@
     "fr": "Mai 2022 – Présent"
   },
   "desc": {
-    "en": "Mobile app for citizen relationship and document access. Elise City lets residents report issues, track resolution in real time, and communicate with their municipality 24/7. Integrated with the Elise back office, it triggers automated workflows and ensures full traceability of requests. As the technical lead at NeoLedge, I drove product improvements, delivered customer-specific releases, fixed bugs, provided support, and set up CI/CD pipelines for store deployments via App Center.",
-    "fr": "Application mobile de relation citoyenne et de gestion documentaire. Elise City permet aux citoyens de signaler des incidents, de suivre leur traitement en temps réel et d’échanger avec leur collectivité 24h/24 et 7j/7. Couplée au back-office Elise, elle déclenche des processus automatisés et assure la traçabilité des demandes. En tant que responsable technique chez NeoLedge, j’ai piloté les évolutions, livré des versions multi-clients, corrigé les anomalies, assuré le support et mis en place des pipelines CI/CD pour les déploiements sur les stores via App Center."
+    "en": "Mobile app for citizen engagement and document access. Residents can report issues, track resolution in real time, and communicate with their municipality 24/7. Integrated with the Elise back office to trigger automated workflows and ensure full request traceability. At NeoLedge, I shipped enhancements and fixes, produced customer-specific releases, provided client support, and set up CI/CD with Microsoft App Center for automated Android/iOS deployments.",
+    "fr": "Application mobile de relation citoyenne et d’accès documentaire. Les citoyens peuvent signaler des incidents, suivre leur traitement en temps réel et dialoguer avec leur collectivité 24h/24 et 7j/7. Intégrée au back-office Elise, elle déclenche des workflows automatisés et garantit la traçabilité complète des demandes. Chez NeoLedge, j’ai livré des évolutions et correctifs, réalisé des versions pour différents clients, assuré le support et mis en place des chaînes CI/CD avec Microsoft App Center pour automatiser les déploiements Android/iOS."
   },
   "stack": [
     "Xamarin.Forms",
     "Android",
     "iOS",
-    "Visual Studio App Center",
+    "Microsoft App Center",
     "Azure DevOps",
     "GraphQL",
     "Push Notifications (FCM/APNs)",
@@ -40,8 +41,8 @@
       "fr": "Authentification mobile sécurisée"
     },
     {
-      "en": "CI/CD & automated App Center store deployments",
-      "fr": "CI/CD & déploiements automatisés via App Center"
+      "en": "CI/CD with Microsoft App Center (automated store releases)",
+      "fr": "CI/CD avec Microsoft App Center (déploiements automatisés)"
     },
     {
       "en": "Cross-platform consistency (Android/iOS)",
@@ -56,9 +57,8 @@
   "cover": "cover.jpg",
   "media": [
     { "type": "img", "src": "screen-01.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Onboarding", "fr": "Onboarding" } },
-    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } },
-    { "type": "img", "src": "screen-05.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Catalog", "fr": "Catalogue" } }
+    { "type": "img", "src": "screen-02.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Reports", "fr": "Signalements" } },
+    { "type": "img", "src": "screen-03.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Tracking", "fr": "Suivi" } },
+    { "type": "img", "src": "screen-04.jpg", "w": 1170, "h": 2532, "device": "phone", "caption": { "en": "Messages", "fr": "Messages" } }
   ]
 }
